@@ -438,18 +438,18 @@
           <model name="OpenRobotics/WoodenChair" />
           <model name="OpenRobotics/WoodenChair_2" />
           <model name="OpenRobotics/Drawer" />
-          <model name="null" />
-          <model name="null" />
-          <model name="null" />
-          <model name="null" />
-          <model name="null" />
-          <model name="null" />
-          <model name="null" />
-          <model name="null" />
-          <model name="null" />
-          <model name="null" />
-          <model name="null" />
-          <model name="null" />
+          <model name="porta5" />
+          <model name="porta4" />
+          <model name="porta6" />
+          <model name="porta7" />
+          <model name="porta8" />
+          <model name="porta8" />
+          <model name="porta9" />
+          <model name="porta10" />
+          <model name="porta1" />
+          <model name="porta11" />
+          <model name="porta2" />
+          <model name="porta3" />
           <model name="ShaftDoor_lift_L1_doors" />
         </floor>
         <floor name="L2" model_name="roscon_L2">
@@ -489,10 +489,10 @@
           <model name="OpenRobotics/Chair_155" />
           <model name="OpenRobotics/Chair_156" />
           <model name="OpenRobotics/Chair_157" />
-          <model name="null" />
-          <model name="null" />
-          <model name="null" />
-          <model name="null" />
+          <model name="porta12" />
+          <model name="porta13" />
+          <model name="porta15" />
+          <model name="porta16" />
           <model name="ShaftDoor_lift_L2_doors" />
         </floor>
       </plugin>
@@ -1794,7 +1794,7 @@
       <pose>16.20991078347102 -8.678858604292726 0.0 0 0 1.5708</pose>
       <static>True</static>
     </include>
-    <model name="null">
+    <model name="porta5">
       <pose>18.80251686306724 -31.607002671838153 0.0 0 0 -3.1385629627547886</pose>
       <link name="right">
         <pose>0.7022943984993862 0 1.11 0 0 0</pose>
@@ -1906,11 +1906,11 @@
           <dx_min_door>0.01</dx_min_door>
           <f_max_door>500.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="DoubleSwingDoor" left_joint_name="left_joint" right_joint_name="right_joint" />
+          <door name="porta5" type="DoubleSwingDoor" left_joint_name="left_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>
-    <model name="null">
+    <model name="porta4">
       <pose>21.979988736783717 -31.603509381073565 0.0 0 0 3.141592653589793</pose>
       <link name="right">
         <pose>0.7097223574843223 0 1.11 0 0 0</pose>
@@ -2022,11 +2022,11 @@
           <dx_min_door>0.01</dx_min_door>
           <f_max_door>500.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="DoubleSwingDoor" left_joint_name="left_joint" right_joint_name="right_joint" />
+          <door name="porta4" type="DoubleSwingDoor" left_joint_name="left_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>
-    <model name="null">
+    <model name="porta6">
       <pose>9.518633001223709 -24.27544915250649 0.0 0 0 1.5630480289039357</pose>
       <link name="right">
         <pose>0 0 1.11 0 0 0</pose>
@@ -2087,11 +2087,11 @@
           <dx_min_door>0.001</dx_min_door>
           <f_max_door>100.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="SlidingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+          <door name="porta6" type="SlidingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>
-    <model name="null">
+    <model name="porta7">
       <pose>9.527867991717725 -21.593275097706286 0.0 0 0 -1.582307449328458</pose>
       <link name="right">
         <pose>0 0 1.11 0 0 0</pose>
@@ -2152,11 +2152,11 @@
           <dx_min_door>0.001</dx_min_door>
           <f_max_door>100.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="SlidingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+          <door name="porta7" type="SlidingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>
-    <model name="null">
+    <model name="porta8">
       <pose>9.530815058835486 -18.93930142653292 0.0 0 0 -1.565453875639571</pose>
       <link name="right">
         <pose>0 0 1.11 0 0 0</pose>
@@ -2217,11 +2217,11 @@
           <dx_min_door>0.001</dx_min_door>
           <f_max_door>100.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="SlidingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+          <door name="porta8" type="SlidingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>
-    <model name="null">
+    <model name="porta8">
       <pose>9.524679569965322 -16.259109020311897 0.0 0 0 -1.5630157832619742</pose>
       <link name="right">
         <pose>0 0 1.11 0 0 0</pose>
@@ -2282,11 +2282,11 @@
           <dx_min_door>0.001</dx_min_door>
           <f_max_door>100.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="SlidingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+          <door name="porta8" type="SlidingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>
-    <model name="null">
+    <model name="porta9">
       <pose>9.51253562098007 -13.580085278637576 0.0 0 0 -1.5527646185033983</pose>
       <link name="right">
         <pose>0 0 1.11 0 0 0</pose>
@@ -2347,11 +2347,11 @@
           <dx_min_door>0.001</dx_min_door>
           <f_max_door>100.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="SlidingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+          <door name="porta9" type="SlidingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>
-    <model name="null">
+    <model name="porta10">
       <pose>9.497139735864877 -10.887024859527369 0.0 0 0 -1.5559991264504258</pose>
       <link name="right">
         <pose>0 0 1.11 0 0 0</pose>
@@ -2412,11 +2412,11 @@
           <dx_min_door>0.001</dx_min_door>
           <f_max_door>100.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="SlidingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+          <door name="porta10" type="SlidingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>
-    <model name="null">
+    <model name="porta1">
       <pose>16.90319562004853 -43.14254743465429 0.0 0 0 -1.5848571042310686</pose>
       <link name="right">
         <pose>0.34918575359819504 0 1.11 0 0 0</pose>
@@ -2528,11 +2528,11 @@
           <dx_min_door>0.01</dx_min_door>
           <f_max_door>500.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="DoubleSwingDoor" left_joint_name="left_joint" right_joint_name="right_joint" />
+          <door name="porta1" type="DoubleSwingDoor" left_joint_name="left_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>
-    <model name="null">
+    <model name="porta11">
       <pose>22.025198270715215 -4.621534761418827 0.0 0 0 -3.125750770619299</pose>
       <link name="right">
         <pose>0 0 1.11 0 0 0</pose>
@@ -2593,11 +2593,11 @@
           <dx_min_door>0.01</dx_min_door>
           <f_max_door>500.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+          <door name="porta11" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>
-    <model name="null">
+    <model name="porta2">
       <pose>17.312113885513217 -34.947477844067976 0.0 0 0 -1.5707963267948966</pose>
       <link name="right">
         <pose>0 0 1.11 0 0 0</pose>
@@ -2658,11 +2658,11 @@
           <dx_min_door>0.01</dx_min_door>
           <f_max_door>500.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+          <door name="porta2" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>
-    <model name="null">
+    <model name="porta3">
       <pose>23.41890695990549 -34.929071377457475 0.0 0 0 -1.5492093856857787</pose>
       <link name="right">
         <pose>0 0 1.11 0 0 0</pose>
@@ -2723,7 +2723,7 @@
           <dx_min_door>0.001</dx_min_door>
           <f_max_door>100.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="SlidingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+          <door name="porta3" type="SlidingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>
@@ -2948,7 +2948,7 @@
       <pose>992.806 -909.199 8.0 0 0 1.5708</pose>
       <static>True</static>
     </include>
-    <model name="null">
+    <model name="porta12">
       <pose>738.3979999999999 -1244.207 8.0 0 0 0.0</pose>
       <link name="right">
         <pose>29.1695 0 1.11 0 0 0</pose>
@@ -3060,11 +3060,11 @@
           <dx_min_door>0.01</dx_min_door>
           <f_max_door>500.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="DoubleSwingDoor" left_joint_name="left_joint" right_joint_name="right_joint" />
+          <door name="porta12" type="DoubleSwingDoor" left_joint_name="left_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>
-    <model name="null">
+    <model name="porta13">
       <pose>864.9645 -1244.207 8.0 0 0 3.141592653589793</pose>
       <link name="right">
         <pose>28.256749999999982 0 1.11 0 0 0</pose>
@@ -3176,11 +3176,11 @@
           <dx_min_door>0.01</dx_min_door>
           <f_max_door>500.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="DoubleSwingDoor" left_joint_name="left_joint" right_joint_name="right_joint" />
+          <door name="porta13" type="DoubleSwingDoor" left_joint_name="left_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>
-    <model name="null">
+    <model name="porta15">
       <pose>681.161 -1375.7485000000001 8.0 0 0 1.5707963267948966</pose>
       <link name="right">
         <pose>0 0 1.11 0 0 0</pose>
@@ -3241,11 +3241,11 @@
           <dx_min_door>0.01</dx_min_door>
           <f_max_door>500.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+          <door name="porta15" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>
-    <model name="null">
+    <model name="porta16">
       <pose>930.457 -1373.3145 8.0 0 0 -1.5707963267948966</pose>
       <link name="right">
         <pose>0 0 1.11 0 0 0</pose>
@@ -3306,7 +3306,7 @@
           <dx_min_door>0.001</dx_min_door>
           <f_max_door>100.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="SlidingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+          <door name="porta16" type="SlidingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>

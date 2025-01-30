@@ -1,7 +1,7 @@
 coordinate_system: reference_image
 crowd_sim:
   agent_groups:
-    - {agents_name: [limpiacacas, robot1, glovo], agents_number: 3, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
+    - {agents_name: [], agents_number: 0, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
   agent_profiles:
     - {ORCA_tau: 1, ORCA_tauObst: 0.40000000000000002, class: 1, max_accel: 0, max_angle_vel: 0, max_neighbors: 10, max_speed: 0, name: external_agent, neighbor_dist: 5, obstacle_set: 1, pref_speed: 0, r: 0.25}
   enable: 0
@@ -16,6 +16,26 @@ graphs:
   {}
 levels:
   L1:
+    constraints:
+      - {ids: ["{28cea55a-3cc7-4863-9b5b-d897f8baff55}", "{d98c0deb-21ca-4dc7-a872-fb177efe008a}"]}
+      - {ids: ["{17b38222-d351-42cd-9b50-40a921f11eeb}", "{bc625275-6c2e-40b5-9788-897a2138e317}"]}
+      - {ids: ["{56858349-54bc-48df-93e2-e953ff222467}", "{1f711801-1c9e-4dd4-9aec-c5096e74cbf4}"]}
+      - {ids: ["{f99f1c1d-8389-4d47-ad66-3cf7db28caf4}", "{b9fa4c2d-104a-42d1-bea9-16f7f4b37256}"]}
+      - {ids: ["{d69ec011-b2f9-47f4-b652-a3a33537b23c}", "{19641db7-5e95-43d9-a831-fec5d6c140ad}"]}
+      - {ids: ["{2aef4e3e-486a-4bd3-842a-0af7184e0485}", "{52ff1a4b-4eb9-4e98-85ac-ec9313c0a203}"]}
+      - {ids: ["{5216a6ab-3cd5-44d9-a199-092b6356f773}", "{50655a80-2294-4007-80b6-313dc4b94803}"]}
+      - {ids: ["{85112849-7f6f-4fee-89f8-f800ba8309e3}", "{dc7d661b-149c-404b-862b-70e44bea5a72}"]}
+      - {ids: ["{fb333a8e-c25b-41af-8066-f4c6c23c88b4}", "{5e0cdf15-db8a-4b48-aef7-f478c431d116}"]}
+      - {ids: ["{ad7cea80-1047-4b35-aab8-95624df2cd4f}", "{64df65f9-2427-4cbb-81a7-93a761dd9556}"]}
+      - {ids: ["{74a970cc-afd5-414f-8e2b-252ac7c8b6e6}", "{02679ecf-2cfd-4a7d-8e67-9547de0eca0c}"]}
+      - {ids: ["{a2bb80d3-0950-4450-8a5f-8a91a657f8ae}", "{979f3b74-50e1-46be-a14e-d20771f5f9bc}"]}
+      - {ids: ["{f4421ee9-2bcc-4e8d-8802-5976a2881000}", "{6f40c17d-3d25-4706-b8d7-93e9d4e8cc26}"]}
+      - {ids: ["{c132e06a-1d0b-4dee-b09d-e907d91c1147}", "{9cccbd94-d649-4e3d-a9ac-fc6063694594}"]}
+      - {ids: ["{c67255ba-ca5f-4322-bb33-115c49a70fc9}", "{1afaa475-4727-4e9f-9773-a572a048d4ba}"]}
+      - {ids: ["{f37a7199-6200-4b9a-9752-a9f968da776b}", "{72a1336d-9a37-4076-8534-3f0294627730}"]}
+      - {ids: ["{3d4a87d8-eac8-435e-bf4c-494b27dcffbb}", "{06ef3dfa-5258-42e5-a340-fc10ad4d5b6d}"]}
+      - {ids: ["{b3aa353d-5faf-4d75-baa3-bbc55e81b3ec}", "{94670601-b4ea-4f8c-afcb-4639c5d5bd8b}"]}
+      - {ids: ["{6aba0d84-41b2-4549-8f08-4b482b6e0671}", "{b53a466c-5d26-4e86-b3a9-1a3a0456913f}"]}
     doors:
       - [272, 242, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, porta5], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
       - [243, 273, {motion_axis: [1, start], motion_degrees: [3, 90], motion_direction: [2, 1], name: [1, porta4], plugin: [1, normal], right_left_ratio: [3, 1], type: [1, double_hinged]}]
@@ -32,6 +52,26 @@ levels:
     drawing:
       filename: conference_room_b1.png
     elevation: 0
+    features:
+      - {id: "{5216a6ab-3cd5-44d9-a199-092b6356f773}", name: "", x: 794.40899999999999, y: 1243.4449999999999}
+      - {id: "{2aef4e3e-486a-4bd3-842a-0af7184e0485}", name: "", x: 810.827, y: 1243.1690000000001}
+      - {id: "{f99f1c1d-8389-4d47-ad66-3cf7db28caf4}", name: "", x: 810.94399999999996, y: 1276.9059999999999}
+      - {id: "{d69ec011-b2f9-47f4-b652-a3a33537b23c}", name: "", x: 793.98299999999995, y: 1276.78}
+      - {id: "{85112849-7f6f-4fee-89f8-f800ba8309e3}", name: "", x: 920.34900000000005, y: 1196.116}
+      - {id: "{28cea55a-3cc7-4863-9b5b-d897f8baff55}", name: "", x: 943.64999999999998, y: 1595.0340000000001}
+      - {id: "{17b38222-d351-42cd-9b50-40a921f11eeb}", name: "", x: 682.10500000000002, y: 1595.1079999999999}
+      - {id: "{56858349-54bc-48df-93e2-e953ff222467}", name: "", x: 681.71299999999997, y: 1518.297}
+      - {id: "{74a970cc-afd5-414f-8e2b-252ac7c8b6e6}", name: "", x: 683.89400000000001, y: 1360.663}
+      - {id: "{979f3b74-50e1-46be-a14e-d20771f5f9bc}", name: "", x: 668.30499999999995, y: 1360.4269999999999}
+      - {id: "{64df65f9-2427-4cbb-81a7-93a761dd9556}", name: "", x: 918.029, y: 1359.4549999999999}
+      - {id: "{5e0cdf15-db8a-4b48-aef7-f478c431d116}", name: "", x: 925.25, y: 1358.652}
+      - {id: "{6f40c17d-3d25-4706-b8d7-93e9d4e8cc26}", name: "", x: 716.65599999999995, y: 214.74199999999999}
+      - {id: "{9cccbd94-d649-4e3d-a9ac-fc6063694594}", name: "", x: 716.93100000000004, y: 186.41}
+      - {id: "{1afaa475-4727-4e9f-9773-a572a048d4ba}", name: "", x: 888.32899999999995, y: 216.62200000000001}
+      - {id: "{72a1336d-9a37-4076-8534-3f0294627730}", name: "", x: 886.00300000000004, y: 185.44900000000001}
+      - {id: "{06ef3dfa-5258-42e5-a340-fc10ad4d5b6d}", name: "", x: 494.63600000000002, y: 1207.7270000000001}
+      - {id: "{6aba0d84-41b2-4549-8f08-4b482b6e0671}", name: "", x: 665.31600000000003, y: 1207.222}
+      - {id: "{94670601-b4ea-4f8c-afcb-4639c5d5bd8b}", name: "", x: 494.77300000000002, y: 1389.605}
     fiducials:
       - [687.20000000000005, 1417.806, left_column]
       - [916.55899999999997, 1418.809, right_column]
@@ -185,8 +225,37 @@ levels:
       - [289, 290, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 6], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [290, 291, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 6], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
       - [284, 380, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [372, 381, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
     layers:
-      {}
+      sim_scan:
+        color: [1, 0, 0, 0.5]
+        features:
+          - {id: "{50655a80-2294-4007-80b6-313dc4b94803}", name: "", x: 288.17399999999998, y: 535.14700000000005}
+          - {id: "{52ff1a4b-4eb9-4e98-85ac-ec9313c0a203}", name: "", x: 298.113, y: 535.06399999999996}
+          - {id: "{b9fa4c2d-104a-42d1-bea9-16f7f4b37256}", name: "", x: 298.03100000000001, y: 553.95699999999999}
+          - {id: "{19641db7-5e95-43d9-a831-fec5d6c140ad}", name: "", x: 288.04399999999998, y: 553.97000000000003}
+          - {id: "{dc7d661b-149c-404b-862b-70e44bea5a72}", name: "", x: 353.22500000000002, y: 513.12800000000004}
+          - {id: "{d98c0deb-21ca-4dc7-a872-fb177efe008a}", name: "", x: 358.185, y: 716.38099999999997}
+          - {id: "{bc625275-6c2e-40b5-9788-897a2138e317}", name: "", x: 232.065, y: 716.11199999999997}
+          - {id: "{1f711801-1c9e-4dd4-9aec-c5096e74cbf4}", name: "", x: 232.05799999999999, y: 677.31200000000001}
+          - {id: "{a2bb80d3-0950-4450-8a5f-8a91a657f8ae}", name: "", x: 228.34700000000001, y: 585.95399999999995}
+          - {id: "{02679ecf-2cfd-4a7d-8e67-9547de0eca0c}", name: "", x: 231.804, y: 585.95399999999995}
+          - {id: "{ad7cea80-1047-4b35-aab8-95624df2cd4f}", name: "", x: 353.14299999999997, y: 583.82600000000002}
+          - {id: "{fb333a8e-c25b-41af-8066-f4c6c23c88b4}", name: "", x: 356.87400000000002, y: 583.69299999999998}
+          - {id: "{f4421ee9-2bcc-4e8d-8802-5976a2881000}", name: "", x: 250.90199999999999, y: 15.598000000000001}
+          - {id: "{c132e06a-1d0b-4dee-b09d-e907d91c1147}", name: "", x: 250.67400000000001, y: 0.70899999999999996}
+          - {id: "{c67255ba-ca5f-4322-bb33-115c49a70fc9}", name: "", x: 336.23700000000002, y: 15.929}
+          - {id: "{f37a7199-6200-4b9a-9752-a9f968da776b}", name: "", x: 336.18200000000002, y: 1.042}
+          - {id: "{3d4a87d8-eac8-435e-bf4c-494b27dcffbb}", name: "", x: 115.239, y: 517.12699999999995}
+          - {id: "{b53a466c-5d26-4e86-b3a9-1a3a0456913f}", name: "", x: 228.01499999999999, y: 517.05600000000004}
+          - {id: "{b3aa353d-5faf-4d75-baa3-bbc55e81b3ec}", name: "", x: 114.072, y: 615.11400000000003}
+        filename: sim_hall.png
+        transform:
+          scale: 0.050026230646845658
+          translation_x: 5.7278439875578409
+          translation_y: 4.8954545140265875
+          yaw: 0.0041990985178449111
+        visible: true
     measurements:
       - [0, 1, {distance: [3, 12]}]
     models:
@@ -785,7 +854,8 @@ levels:
       - [1010.279, 1487.8889999999999, 0, ""]
       - [627.73900000000003, 1372.356, 0, ""]
       - [961.89800000000002, 1378.8679999999999, 0, ""]
-      - [484.82400000000001, 317.48200000000003, 0, ""]
+      - [484.82400000000001, 317.48200000000003, 0, "", {is_charger: [4, false], spawn_robot_name: [1, ""], spawn_robot_type: [1, ""]}]
+      - [1180.585, 1551.201, 0, "", {is_charger: [4, false], spawn_robot_name: [1, ""], spawn_robot_type: [1, ""]}]
     walls:
       - [8, 9, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
       - [9, 10, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]

@@ -1,0 +1,21 @@
+[0.291s] Invoking command in '/home/usuario/rmf_ws/src/project/build/project_maps': CMAKE_PREFIX_PATH=/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/usuario/rmf_ws/src/project/project_maps -DCMAKE_INSTALL_PREFIX=/home/usuario/rmf_ws/src/project/install/project_maps
+[0.373s] -- The C compiler identification is GNU 13.3.0
+[0.458s] -- The CXX compiler identification is GNU 13.3.0
+[0.481s] -- Detecting C compiler ABI info
+[0.629s] -- Detecting C compiler ABI info - done
+[0.641s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.641s] -- Detecting C compile features
+[0.641s] -- Detecting C compile features - done
+[0.652s] -- Detecting CXX compiler ABI info
+[0.822s] -- Detecting CXX compiler ABI info - done
+[0.833s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.834s] -- Detecting CXX compile features
+[0.835s] -- Detecting CXX compile features - done
+[0.857s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.109s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.381s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.594s] -- Added test 'lint_cmake' to check CMake code style
+[1.598s] -- Added test 'xmllint' to check XML markup files
+[1.603s] -- Configuring done (1.3s)
+[1.609s] -- Generating done (0.0s)
+[1.612s] -- Build files have been written to: /home/usuario/rmf_ws/src/project/build/project_maps

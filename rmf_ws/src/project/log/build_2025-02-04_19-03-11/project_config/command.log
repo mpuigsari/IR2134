@@ -1,0 +1,2 @@
+Invoking command in '/home/usuario/rmf_ws/src/project/build/project_config': /usr/bin/cmake /home/usuario/rmf_ws/src/project/project_config -DCMAKE_INSTALL_PREFIX=/home/usuario/rmf_ws/src/project/install/project_config
+Invoked command in '/home/usuario/rmf_ws/src/project/build/project_config' returned '1': /usr/bin/cmake /home/usuario/rmf_ws/src/project/project_config -DCMAKE_INSTALL_PREFIX=/home/usuario/rmf_ws/src/project/install/project_config

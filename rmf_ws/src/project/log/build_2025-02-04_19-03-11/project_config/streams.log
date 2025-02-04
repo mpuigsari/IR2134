@@ -1,0 +1,44 @@
+[0.039s] Invoking command in '/home/usuario/rmf_ws/src/project/build/project_config': /usr/bin/cmake /home/usuario/rmf_ws/src/project/project_config -DCMAKE_INSTALL_PREFIX=/home/usuario/rmf_ws/src/project/install/project_config
+[0.308s] -- The C compiler identification is GNU 13.3.0
+[0.433s] -- The CXX compiler identification is GNU 13.3.0
+[0.461s] -- Detecting C compiler ABI info
+[0.649s] -- Detecting C compiler ABI info - done
+[0.665s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.665s] -- Detecting C compile features
+[0.665s] -- Detecting C compile features - done
+[0.680s] -- Detecting CXX compiler ABI info
+[0.839s] -- Detecting CXX compiler ABI info - done
+[0.853s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.853s] -- Detecting CXX compile features
+[0.854s] -- Detecting CXX compile features - done
+[0.877s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.144s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.499s] Error parsing '/home/usuario/rmf_ws/src/project/project_config/package.xml':
+[1.499s] Traceback (most recent call last):
+[1.499s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.500s]     main()
+[1.500s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.500s]     raise e
+[1.500s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.500s]     package = parse_package_string(
+[1.500s]               ^^^^^^^^^^^^^^^^^^^^^
+[1.500s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[1.500s]     pkg.validate(warnings=warnings)
+[1.500s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[1.500s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[1.500s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/usuario/rmf_ws/src/project/project_config/package.xml':
+[1.500s] Invalid email "mail" for person "email"
+[1.525s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.526s]   execute_process(/usr/bin/python3
+[1.526s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.526s] -- Configuring incomplete, errors occurred!
+[1.526s]   /home/usuario/rmf_ws/src/project/project_config/package.xml
+[1.526s]   /home/usuario/rmf_ws/src/project/build/project_config/ament_cmake_core/package.cmake)
+[1.526s]   returned error code 1
+[1.526s] Call Stack (most recent call first):
+[1.526s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.526s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[1.526s]   CMakeLists.txt:20 (ament_package)
+[1.526s] 
+[1.527s] [0m
+[1.532s] Invoked command in '/home/usuario/rmf_ws/src/project/build/project_config' returned '1': /usr/bin/cmake /home/usuario/rmf_ws/src/project/project_config -DCMAKE_INSTALL_PREFIX=/home/usuario/rmf_ws/src/project/install/project_config

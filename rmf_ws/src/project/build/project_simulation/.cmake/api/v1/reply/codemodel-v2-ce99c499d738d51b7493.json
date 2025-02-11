@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-f91c5b2d677a8b932856.json",
+					"jsonFile" : "directory-.-5fb834a614e225245182.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -29,7 +29,7 @@
 					[
 						0
 					],
-					"name" : "project_config",
+					"name" : "project_simulation",
 					"targetIndexes" : 
 					[
 						0,
@@ -41,15 +41,15 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "project_config_uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-project_config_uninstall-e6f634baef6567e13a9a.json",
-					"name" : "project_config_uninstall",
+					"id" : "project_simulation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_simulation_uninstall-f4a23f3c4c45ac626630.json",
+					"name" : "project_simulation_uninstall",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-uninstall-aae83c1ced77a60baa57.json",
+					"jsonFile" : "target-uninstall-492a4fac3d708d31aca9.json",
 					"name" : "uninstall",
 					"projectIndex" : 0
 				}
@@ -59,8 +59,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/max/Documents/GitHub/IR2134/rmf_ws/src/project/build/project_config",
-		"source" : "/home/max/Documents/GitHub/IR2134/rmf_ws/src/project/project_config"
+		"build" : "/home/max/Documents/GitHub/IR2134/rmf_ws/src/project/build/project_simulation",
+		"source" : "/home/max/Documents/GitHub/IR2134/rmf_ws/src/project/project_simulation"
 	},
 	"version" : 
 	{

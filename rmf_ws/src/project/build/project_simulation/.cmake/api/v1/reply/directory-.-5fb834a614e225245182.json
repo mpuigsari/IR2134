@@ -226,7 +226,7 @@
 		{
 			"backtrace" : 1,
 			"component" : "Unspecified",
-			"destination" : "share/project_simulation/",
+			"destination" : "share/project_simulation",
 			"paths" : 
 			[
 				{

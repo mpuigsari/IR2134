@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/project_simulation/" TYPE DIRECTORY FILES "/home/max/Documents/GitHub/IR2134/rmf_ws/src/project/project_simulation/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/project_simulation" TYPE DIRECTORY FILES "/home/max/Documents/GitHub/IR2134/rmf_ws/src/project/project_simulation/launch/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

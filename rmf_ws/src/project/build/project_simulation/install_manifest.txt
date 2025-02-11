@@ -1,5 +1,5 @@
-/home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_simulation/share/project_simulation//test1.launch.xml
-/home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_simulation/share/project_simulation//simulation.launch.xml
+/home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_simulation/share/project_simulation/test1.launch.xml
+/home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_simulation/share/project_simulation/simulation.launch.xml
 /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_simulation/share/ament_index/resource_index/package_run_dependencies/project_simulation
 /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_simulation/share/ament_index/resource_index/parent_prefix_path/project_simulation
 /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_simulation/share/project_simulation/environment/ament_prefix_path.sh

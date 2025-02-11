@@ -16,7 +16,7 @@ set(_project_maps_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT project_maps_FIND_QUIETLY)
-  message(STATUS "Found project_maps: 0.0.0 (${project_maps_DIR})")
+  message(STATUS "Found project_maps: 2.5.0 (${project_maps_DIR})")
 endif()
 
 # warn when using a deprecated package

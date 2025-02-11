@@ -17,14 +17,6 @@
 -- Build files have been written to: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/build/project_maps
 [ 66%] [34m[1mGenerating maps/test1/nav_graphs/phony[0m
 [ 66%] [34m[1mGenerating maps/test1/test1.world[0m
-building name: test1
-coordinate system: reference_image
-parsing level L1
-calculating levels relative to L1
-WARNING! No measurements defined. Scale is indetermined.
-         Nav graph generated in pixel units, not meters!
-generating nav data
-writing /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/nav_graphs/1.yaml
 generating /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/test1.world from /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/project_maps/maps/test1/test1.building.yaml
 building name: test1
 coordinate system: reference_image
@@ -41,7 +33,7 @@ lift vertices: {}
   wrote /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/models/test1_L1/meshes/floor_1.obj
   wrote /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/models/test1_L1/meshes/blue_linoleum.png
   wrote /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/models/test1_L1/meshes/floor_1.mtl
-Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x738751119610>, 'texture_height': <building_map.param_value.ParamValue object at 0x7387511196a0>, 'texture_name': <building_map.param_value.ParamValue object at 0x738751119670>, 'texture_scale': <building_map.param_value.ParamValue object at 0x738751118470>, 'texture_width': <building_map.param_value.ParamValue object at 0x7387511d8b60>}]
+Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x70f94be5b380>, 'texture_height': <building_map.param_value.ParamValue object at 0x70f94be5b080>, 'texture_name': <building_map.param_value.ParamValue object at 0x70f94be5b320>, 'texture_scale': <building_map.param_value.ParamValue object at 0x70f94be5aff0>, 'texture_width': <building_map.param_value.ParamValue object at 0x70f94be5aed0>}]
 generating wall: 1 on floor: test1_L1
   wrote /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/models/test1_L1/meshes/default.png
 generate_wall_visual_mesh(test1_L1, /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/models/test1_L1)
@@ -50,6 +42,14 @@ generate_wall_visual_mesh(test1_L1, /home/max/Documents/GitHub/IR2134/rmf_ws/src
   wrote /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/models/test1_L1/model.sdf
 spawning robot name tinyRobot1 of type TinyRobot
 11485 bytes written to /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/test1.world
+building name: test1
+coordinate system: reference_image
+parsing level L1
+calculating levels relative to L1
+WARNING! No measurements defined. Scale is indetermined.
+         Nav graph generated in pixel units, not meters!
+generating nav data
+writing /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/nav_graphs/1.yaml
 [ 66%] Built target generate_test1_nav_graphs
 building name: test1
 coordinate system: reference_image

@@ -16,7 +16,7 @@ set(_project_config_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT project_config_FIND_QUIETLY)
-  message(STATUS "Found project_config: 0.0.0 (${project_config_DIR})")
+  message(STATUS "Found project_config: 2.5.0 (${project_config_DIR})")
 endif()
 
 # warn when using a deprecated package

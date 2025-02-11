@@ -16,7 +16,7 @@ set(_project_simulation_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT project_simulation_FIND_QUIETLY)
-  message(STATUS "Found project_simulation: 0.0.0 (${project_simulation_DIR})")
+  message(STATUS "Found project_simulation: 2.5.0 (${project_simulation_DIR})")
 endif()
 
 # warn when using a deprecated package

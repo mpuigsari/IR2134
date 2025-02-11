@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "project_maps")
-set(project_maps_VERSION "0.0.0")
-set(project_maps_MAINTAINER "usuario <usuario@todo.todo>")
+set(project_maps_VERSION "2.5.0")
+set(project_maps_MAINTAINER "Aaron Chong <aaron@openrobotics.org>, Marco A. Gutiérrez <marco@openrobotics.org>, Yadunund <yadunund@openrobotics.org>")
 set(project_maps_BUILD_DEPENDS )
 set(project_maps_BUILDTOOL_DEPENDS "ament_cmake" "rmf_building_map_tools" "ros2run")
 set(project_maps_BUILD_EXPORT_DEPENDS )

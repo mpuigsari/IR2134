@@ -73,7 +73,7 @@ class RobotAPI:
         assert len(pose) > 2
         url = (
             self.prefix
-            + f'/open-rmf/project_fm/navigate?robot_name={robot_name}'
+            + f'/open-rmf/rmf_demos_fm/navigate?robot_name={robot_name}'
             f'&cmd_id={cmd_id}'
         )
         data = {}  # data fields: task, map_name, destination{}, data{}
@@ -104,7 +104,7 @@ class RobotAPI:
         """
         url = (
             self.prefix
-            + f'/open-rmf/project_fm/start_activity?robot_name={robot_name}'
+            + f'/open-rmf/rmf_demos_fm/start_activity?robot_name={robot_name}'
             f'&cmd_id={cmd_id}'
         )
         # data fields: task, map_name, destination{}, data{}
@@ -137,7 +137,7 @@ class RobotAPI:
         """
         url = (
             self.prefix
-            + f'/open-rmf/project_fm/stop_robot?robot_name={robot_name}'
+            + f'/open-rmf/rmf_demos_fm/stop_robot?robot_name={robot_name}'
             f'&cmd_id={cmd_id}'
         )
         try:
@@ -160,7 +160,7 @@ class RobotAPI:
         """
         url = (
             self.prefix
-            + f'/open-rmf/project_fm/toggle_teleop?robot_name={robot_name}'
+            + f'/open-rmf/rmf_demos_fm/toggle_teleop?robot_name={robot_name}'
         )
         data = {'toggle': toggle}
         try:
@@ -183,7 +183,7 @@ class RobotAPI:
         """
         url = (
             self.prefix
-            + f'/open-rmf/project_fm/toggle_attach?robot_name={robot_name}'
+            + f'/open-rmf/rmf_demos_fm/toggle_attach?robot_name={robot_name}'
             f'&cmd_id={cmd_id}'
         )
         data = {'toggle': attach}
@@ -206,11 +206,11 @@ class RobotAPI:
         Otherwise return a list of RobotUpdateData for all robots.
         """
         if robot_name is None:
-            url = self.prefix + '/open-rmf/project_fm/status'
+            url = self.prefix + '/open-rmf/rmf_demos_fm/status'
         else:
             url = (
                 self.prefix
-                + f'/open-rmf/project_fm/status?robot_name={robot_name}'
+                + f'/open-rmf/rmf_demos_fm/status?robot_name={robot_name}'
             )
         try:
             response = requests.get(url, timeout=self.timeout)

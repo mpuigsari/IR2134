@@ -17,11 +17,14 @@
 -- Build files have been written to: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/build/project_config
 -- Install configuration: ""
 -- Installing: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_config/share/project_config
+-- Installing: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_config/share/project_config/include
+-- Installing: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_config/share/project_config/include/test1
+-- Installing: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_config/share/project_config/include/test1/test1.rviz
 -- Installing: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_config/share/project_config/test1.launch.xml
 -- Installing: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_config/share/project_config/common.launch.xml
--- Up-to-date: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_config/share/project_config
--- Installing: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_config/share/project_config/test1
--- Installing: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_config/share/project_config/test1/tinyRobot_config.yaml
+-- Installing: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_config/share/project_config/config
+-- Installing: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_config/share/project_config/config/test1
+-- Installing: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_config/share/project_config/config/test1/tinyRobot_config.yaml
 -- Installing: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_config/share/ament_index/resource_index/package_run_dependencies/project_config
 -- Installing: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_config/share/ament_index/resource_index/parent_prefix_path/project_config
 -- Installing: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/install/project_config/share/project_config/environment/ament_prefix_path.sh

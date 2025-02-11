@@ -36,13 +36,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 11,
+				"line" : 7,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 16,
+				"line" : 13,
 				"parent" : 0
 			},
 			{
@@ -233,10 +233,7 @@
 					"from" : "launch",
 					"to" : "."
 				},
-				{
-					"from" : "config",
-					"to" : "."
-				}
+				"config"
 			],
 			"type" : "directory"
 		},

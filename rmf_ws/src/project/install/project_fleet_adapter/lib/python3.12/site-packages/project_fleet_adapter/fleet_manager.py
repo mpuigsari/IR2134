@@ -208,7 +208,7 @@ class FleetManager(Node):
             qos_profile=qos_profile_system_default,
         )
 
-        @app.get('/open-rmf/project_fm/status/', response_model=Response)
+        @app.get('/open-rmf/rmf_demos_fm/status/', response_model=Response)
         async def status(robot_name: Optional[str] = None):
             response = {'data': {}, 'success': False, 'msg': ''}
             if robot_name is None:
@@ -228,7 +228,7 @@ class FleetManager(Node):
             response['success'] = True
             return response
 
-        @app.post('/open-rmf/project_fm/navigate/', response_model=Response)
+        @app.post('/open-rmf/rmf_demos_fm/navigate/', response_model=Response)
         async def navigate(robot_name: str, cmd_id: int, dest: Request):
             response = {'success': False, 'msg': ''}
             if robot_name not in self.robots or len(dest.destination) < 1:
@@ -290,7 +290,7 @@ class FleetManager(Node):
             response['success'] = True
             return response
 
-        @app.get('/open-rmf/project_fm/stop_robot/', response_model=Response)
+        @app.get('/open-rmf/rmf_demos_fm/stop_robot/', response_model=Response)
         async def stop(robot_name: str, cmd_id: int):
             response = {'success': False, 'msg': ''}
             if robot_name not in self.robots:
@@ -318,7 +318,7 @@ class FleetManager(Node):
             return response
 
         @app.get(
-            '/open-rmf/project_fm/action_paths/', response_model=Response
+            '/open-rmf/rmf_demos_fm/action_paths/', response_model=Response
         )
         async def action_paths(activity: str, label: str):
             response = {'success': False, 'msg': ''}
@@ -333,7 +333,7 @@ class FleetManager(Node):
             return response
 
         @app.post(
-            '/open-rmf/project_fm/start_activity/', response_model=Response
+            '/open-rmf/rmf_demos_fm/start_activity/', response_model=Response
         )
         async def start_activity(
             robot_name: str, cmd_id: int, request: Request
@@ -385,7 +385,7 @@ class FleetManager(Node):
             return response
 
         @app.post(
-            '/open-rmf/project_fm/toggle_teleop/', response_model=Response
+            '/open-rmf/rmf_demos_fm/toggle_teleop/', response_model=Response
         )
         async def toggle_teleop(robot_name: str, mode: Request):
             response = {'success': False, 'msg': ''}
@@ -397,7 +397,7 @@ class FleetManager(Node):
             return response
 
         @app.post(
-            '/open-rmf/project_fm/toggle_attach/', response_model=Response
+            '/open-rmf/rmf_demos_fm/toggle_attach/', response_model=Response
         )
         async def toggle_attach(robot_name: str, cmd_id: int, mode: Request):
             response = {'success': False, 'msg': ''}

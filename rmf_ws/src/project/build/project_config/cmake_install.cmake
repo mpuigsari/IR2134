@@ -45,7 +45,7 @@ endif()
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/project_config" TYPE DIRECTORY FILES
     "/home/max/Documents/GitHub/IR2134/rmf_ws/src/project/project_config/launch/"
-    "/home/max/Documents/GitHub/IR2134/rmf_ws/src/project/project_config/config/"
+    "/home/max/Documents/GitHub/IR2134/rmf_ws/src/project/project_config/config"
     )
 endif()
 

@@ -1,1 +1,1 @@
-ros2launch;rclcpp;rclpy;project_config;ament_lint_auto;ament_lint_common
+rmf_demos;rmf_building_sim_gz_plugins;rmf_robot_sim_gz_plugins;teleop_twist_keyboard;launch_xml;ros2launch;gz_sim_vendor;ros_gz_bridge

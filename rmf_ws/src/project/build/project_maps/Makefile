@@ -197,6 +197,32 @@ project_maps_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_maps_uninstall.dir/build.make CMakeFiles/project_maps_uninstall.dir/build
 .PHONY : project_maps_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named generate_test1_crowdsim
+
+# Build rule for target.
+generate_test1_crowdsim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 generate_test1_crowdsim
+.PHONY : generate_test1_crowdsim
+
+# fast build rule for target.
+generate_test1_crowdsim/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_test1_crowdsim.dir/build.make CMakeFiles/generate_test1_crowdsim.dir/build
+.PHONY : generate_test1_crowdsim/fast
+
+#=============================================================================
+# Target rules for targets named generate_test1_nav_graphs
+
+# Build rule for target.
+generate_test1_nav_graphs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 generate_test1_nav_graphs
+.PHONY : generate_test1_nav_graphs
+
+# fast build rule for target.
+generate_test1_nav_graphs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_test1_nav_graphs.dir/build.make CMakeFiles/generate_test1_nav_graphs.dir/build
+.PHONY : generate_test1_nav_graphs/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,6 +236,8 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... generate_test1_crowdsim"
+	@echo "... generate_test1_nav_graphs"
 	@echo "... project_maps_uninstall"
 	@echo "... uninstall"
 .PHONY : help

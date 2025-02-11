@@ -7,14 +7,16 @@
   <maintainer email="usuario@todo.todo">usuario</maintainer>
   <license>Apache-2.0</license>
 
-  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>rmf_demos</exec_depend>
+  <exec_depend>rmf_building_sim_gz_plugins</exec_depend>
+  <exec_depend>rmf_robot_sim_gz_plugins</exec_depend>
 
-  <test_depend>ament_lint_auto</test_depend>
-  <test_depend>ament_lint_common</test_depend>
-  <depend>ros2launch</depend>
-  <depend>rclcpp</depend>
-  <depend>rclpy</depend>
-  <depend>project_config</depend>
+  <exec_depend>teleop_twist_keyboard</exec_depend>
+  <exec_depend>launch_xml</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>gz_sim_vendor</exec_depend>
+
+  <exec_depend>ros_gz_bridge</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>

@@ -43,6 +43,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/project_maps" TYPE DIRECTORY FILES "/home/max/Documents/GitHub/IR2134/rmf_ws/src/project/project_maps/maps/")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/max/Documents/GitHub/IR2134/rmf_ws/src/project/build/project_maps/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/project_maps")
 endif()
 
@@ -99,6 +103,10 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/project_maps" TYPE FILE FILES "/home/max/Documents/GitHub/IR2134/rmf_ws/src/project/project_maps/package.xml")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/project_maps/maps" TYPE DIRECTORY FILES "/home/max/Documents/GitHub/IR2134/rmf_ws/src/project/build/project_maps/maps/test1")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

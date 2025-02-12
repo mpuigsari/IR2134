@@ -1,3 +1,3 @@
-src/install
-src/log
-src/build
+rmf_ws/src/project/build/
+rmf_ws/src/project/log/
+rmf_ws/src/project/install/

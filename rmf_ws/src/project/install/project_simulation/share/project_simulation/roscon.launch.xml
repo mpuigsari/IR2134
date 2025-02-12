@@ -7,7 +7,7 @@
   <arg name="sim_update_rate" default='100'/>
 
   <!-- Common launch -->
-  <include file="$(find-pkg-share project_simulation)/roscon.launch.xml">
+  <include file="$(find-pkg-share project_config)/roscon.launch.xml">
     <arg name="use_sim_time" value="$(var use_sim_time)"/>
     <arg name="failover_mode" value="$(var failover_mode)"/>
   </include>

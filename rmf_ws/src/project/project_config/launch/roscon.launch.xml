@@ -4,9 +4,9 @@
   <arg name="use_sim_time" default="false"/>
 
   <!-- Common launch -->
-  <include file="$(find-pkg-share project)/common.launch.xml">
+  <include file="$(find-pkg-share project_config)/common.launch.xml">
     <arg name="use_sim_time" value="$(var use_sim_time)"/>
-    <arg name="viz_config_file" value ="$(find-pkg-share project)/include/roscon/roscon.rviz"/>
+    <arg name="viz_config_file" value ="$(find-pkg-share project_config)/include/roscon/roscon.rviz"/>
     <arg name="config_file" value="$(find-pkg-share project_maps)/roscon/roscon.building.yaml"/>
     <arg name="use_reservation_node" value="true"/>
   </include>

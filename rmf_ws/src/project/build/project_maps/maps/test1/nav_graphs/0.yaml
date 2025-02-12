@@ -10,11 +10,11 @@ levels:
       - 0
       - {}
     vertices:
-    - - 50.0
-      - -50.0
+    - - 3.3333333333333335
+      - -3.3333333333333335
       - {is_charger: true, name: tinyRobot1_charger, spawn_robot_name: tinyRobot1,
         spawn_robot_type: TinyRobot}
-    - - 100.0
-      - -50.0
+    - - 6.666666666666667
+      - -3.3333333333333335
       - {name: waypoint1}
 lifts: {}

@@ -12,7 +12,7 @@
 -- Detecting CXX compile features - done
 -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
 -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
--- Configuring done (1.8s)
+-- Configuring done (1.7s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/usuario/IR2134/rmf_ws/src/project/build/project_simulation
 -- Install configuration: ""

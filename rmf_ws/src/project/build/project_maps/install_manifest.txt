@@ -39,7 +39,7 @@
 /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L2/meshes/floor_1.obj
 /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L2/model.config
 /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L2/model.sdf
-/home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/nav_graphs/1.yaml
+/home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/nav_graphs/0.yaml
 /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/test1.world
 /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/floor_1.mtl
 /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/default.png

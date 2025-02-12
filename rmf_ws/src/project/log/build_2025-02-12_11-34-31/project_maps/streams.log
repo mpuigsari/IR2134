@@ -1,0 +1,453 @@
+[0.260s] Invoking command in '/home/usuario/IR2134/rmf_ws/src/project/build/project_maps': CMAKE_PREFIX_PATH=/home/usuario/IR2134/rmf_ws/src/project/install/project_simulation:/home/usuario/IR2134/rmf_ws/src/project/install/project_config:/home/usuario/IR2134/rmf_ws/src/project/install/project_maps:/home/usuario/IR2134/rmf_ws/src/project/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/usuario/IR2134/rmf_ws/src/project/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/usuario/IR2134/rmf_ws/src/project/project_maps -DCMAKE_INSTALL_PREFIX=/home/usuario/IR2134/rmf_ws/src/project/install/project_maps
+[0.426s] -- The C compiler identification is GNU 13.3.0
+[0.565s] -- The CXX compiler identification is GNU 13.3.0
+[0.602s] -- Detecting C compiler ABI info
+[0.955s] -- Detecting C compiler ABI info - done
+[0.971s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.972s] -- Detecting C compile features
+[0.972s] -- Detecting C compile features - done
+[1.001s] -- Detecting CXX compiler ABI info
+[1.355s] -- Detecting CXX compiler ABI info - done
+[1.371s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.371s] -- Detecting CXX compile features
+[1.372s] -- Detecting CXX compile features - done
+[1.397s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.630s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.052s] [0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/usuario/IR2134/rmf_ws/src/project/project_maps/maps/roscon/roscon.building.yaml /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/roscon.world /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models[0m
+[2.052s] [0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/usuario/IR2134/rmf_ws/src/project/project_maps/maps/roscon/roscon.building.yaml[0m
+[2.052s] [0mBUILDING WORLDFILE WITH COMMAND: ros2 run rmf_building_map_tools building_map_generator gazebo /home/usuario/IR2134/rmf_ws/src/project/project_maps/maps/test1/test1.building.yaml /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/test1.world /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/models[0m
+[2.052s] [0mDOWNLOADING MODELS WITH COMMAND: ros2 run rmf_building_map_tools building_map_model_downloader /home/usuario/IR2134/rmf_ws/src/project/project_maps/maps/test1/test1.building.yaml[0m
+[2.052s] -- Configuring done (1.8s)
+[2.088s] -- Generating done (0.0s)
+[2.171s] -- Build files have been written to: /home/usuario/IR2134/rmf_ws/src/project/build/project_maps
+[2.175s] Invoked command in '/home/usuario/IR2134/rmf_ws/src/project/build/project_maps' returned '0': CMAKE_PREFIX_PATH=/home/usuario/IR2134/rmf_ws/src/project/install/project_simulation:/home/usuario/IR2134/rmf_ws/src/project/install/project_config:/home/usuario/IR2134/rmf_ws/src/project/install/project_maps:/home/usuario/IR2134/rmf_ws/src/project/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/usuario/IR2134/rmf_ws/src/project/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake /home/usuario/IR2134/rmf_ws/src/project/project_maps -DCMAKE_INSTALL_PREFIX=/home/usuario/IR2134/rmf_ws/src/project/install/project_maps
+[2.184s] Invoking command in '/home/usuario/IR2134/rmf_ws/src/project/build/project_maps': CMAKE_PREFIX_PATH=/home/usuario/IR2134/rmf_ws/src/project/install/project_simulation:/home/usuario/IR2134/rmf_ws/src/project/install/project_config:/home/usuario/IR2134/rmf_ws/src/project/install/project_maps:/home/usuario/IR2134/rmf_ws/src/project/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/usuario/IR2134/rmf_ws/src/project/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/usuario/IR2134/rmf_ws/src/project/build/project_maps -- -j6 -l6
+[2.410s] [ 16%] [34m[1mGenerating maps/roscon/nav_graphs/phony[0m
+[2.419s] [ 50%] [34m[1mGenerating maps/test1/nav_graphs/phony[0m
+[2.420s] [ 50%] [34m[1mGenerating maps/test1/test1.world[0m
+[2.432s] [ 66%] [34m[1mGenerating maps/roscon/roscon.world[0m
+[2.912s] generating /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/test1.world from /home/usuario/IR2134/rmf_ws/src/project/project_maps/maps/test1/test1.building.yaml
+[2.930s] generating /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/roscon.world from /home/usuario/IR2134/rmf_ws/src/project/project_maps/maps/roscon/roscon.building.yaml
+[2.930s] building name: test1
+[2.930s] coordinate system: reference_image
+[2.930s] parsing level L1
+[2.930s] calculating levels relative to L1
+[2.931s] WARNING! No measurements defined. Scale is indetermined.
+[2.931s]          Nav graph generated in pixel units, not meters!
+[2.931s] generating nav data
+[2.931s] building name: test1
+[2.931s] coordinate system: reference_image
+[2.931s] parsing level L1
+[2.931s] calculating levels relative to L1
+[2.931s] WARNING! No measurements defined. Scale is indetermined.
+[2.931s]          Nav graph generated in pixel units, not meters!
+[2.931s] writing /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/nav_graphs/1.yaml
+[2.932s] generating model of level L1 in /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/models/test1_L1
+[2.932s]   wrote /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/models/test1_L1/model.config
+[2.932s] generating floor polygon 1 on floor test1_L1
+[2.932s] hole vertices: []
+[2.932s] lift vertices: {}
+[2.933s] [[0, 3, 2], [0, 2, 1]]
+[2.933s]   wrote /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/models/test1_L1/meshes/floor_1.obj
+[2.934s]   wrote /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/models/test1_L1/meshes/blue_linoleum.png
+[2.934s]   wrote /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/models/test1_L1/meshes/floor_1.mtl
+[2.934s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7514295df770>, 'texture_height': <building_map.param_value.ParamValue object at 0x7514295df7a0>, 'texture_name': <building_map.param_value.ParamValue object at 0x7514295df650>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7514295df5c0>, 'texture_width': <building_map.param_value.ParamValue object at 0x7514295df740>}]
+[2.934s] generating wall: 1 on floor: test1_L1
+[2.935s]   wrote /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/models/test1_L1/meshes/default.png
+[2.935s] generate_wall_visual_mesh(test1_L1, /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/models/test1_L1)
+[2.935s]   generating /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/models/test1_L1/meshes/wall_1.obj
+[2.935s]   generating /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/models/test1_L1/meshes/wall_1.mtl
+[2.935s]   wrote /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/models/test1_L1/model.sdf
+[2.936s] spawning robot name tinyRobot1 of type TinyRobot
+[2.939s] 11485 bytes written to /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/test1.world
+[3.036s] [ 66%] Built target generate_test1_nav_graphs
+[3.046s] building name: roscon
+[3.046s] coordinate system: reference_image
+[3.046s] parsing level L1
+[3.047s] parsing level L2
+[3.047s] calculating levels relative to L1
+[3.048s] level L1 scale: 0.02540575101517147
+[3.048s] calculating level L2 offset and scale...
+[3.048s]   2 common fiducials:
+[3.048s] Transform.set_from_fiducials()
+[3.048s]   2 fiducial pairs:
+[3.048s]     (687.2, -1417.8) -> (687.64, -1417.9)   left_column
+[3.048s]     (916.56, -1418.8) -> (918.59, -1418.3)   right_column
+[3.048s]     calc dist left_column <=> right_column
+[3.048s] Bearings:
+[3.048s] [(-0.004373029209261051, -0.0014981586539799935)]
+[3.048s]   0.002874870555281057
+[3.049s]   Circular mean: -0.002874870555281057
+[3.049s] Distances:
+[3.049s] [(229.3611930776433, 230.95025918149565)]
+[3.049s] mean relative scale: 1.0069282256624574
+[3.049s] translation: (0.21192, -0.19473)
+[3.053s] parsing lift lift
+[3.053s] generating nav data
+[3.056s] hooray, we found an intersection: t=0.507, u=0.542
+[3.056s]   (868.899,-246.402),(868.899,-119.035) and (843.773,-182.276),(890.102,-181.542)
+[3.056s] found intersection with door porta11!
+[3.056s] hooray, we found an intersection: t=0.327, u=0.686
+[3.056s]   (885.98,-1178.361),(885.98,-1378.868) and (809.287,-1243.951),(921.029,-1243.951)
+[3.056s] found intersection with door porta4!
+[3.056s] hooray, we found an intersection: t=0.471, u=0.27
+[3.056s]   (716.664,-1176.992),(712.322,-1319.536) and (684.803,-1244.256),(795.375,-1243.921)
+[3.057s] found intersection with door porta5!
+[3.057s] hooray, we found an intersection: t=0.599, u=0.466
+[3.057s]   (749.695,-1699.028),(608.84,-1700.685) and (664.943,-1725.627),(665.716,-1670.655)
+[3.057s] found intersection with door porta1!
+[3.057s] hooray, we found an intersection: t=0.486, u=0.587
+[3.057s]   (732.277,-1372.356),(627.739,-1372.356) and (681.425,-1394.047),(681.425,-1357.1)
+[3.057s] found intersection with door porta2!
+[3.058s] hooray, we found an intersection: t=0.473, u=0.379
+[3.058s]   (885.98,-1378.868),(961.898,-1378.868) and (922.155,-1391.5),(921.436,-1358.198)
+[3.058s] found intersection with door porta3!
+[3.058s] hooray, we found an intersection: t=0.614, u=0.423
+[3.058s]   (324.564,-952.615),(406.163,-952.615) and (374.811,-936.603),(374.518,-974.417)
+[3.058s] found intersection with door porta6!
+[3.058s] hooray, we found an intersection: t=0.637, u=0.461
+[3.058s]   (324.564,-851.4),(403.809,-851.4) and (374.811,-868.787),(375.245,-831.086)
+[3.060s] found intersection with door porta7!
+[3.060s] hooray, we found an intersection: t=0.602, u=0.604
+[3.060s]   (324.564,-741.555),(408.517,-741.555) and (375.245,-764.378),(375.043,-726.568)
+[3.060s] found intersection with door porta81!
+[3.060s] hooray, we found an intersection: t=0.635, u=0.555
+[3.060s]   (324.564,-637.987),(403.809,-637.987) and (375.043,-658.035),(374.762,-621.92)
+[3.060s] found intersection with door porta8!
+[3.061s] hooray, we found an intersection: t=0.569, u=0.435
+[3.061s]   (324.564,-536.947),(412.271,-536.947) and (374.762,-553.243),(374.087,-515.813)
+[3.061s] found intersection with door porta9!
+[3.061s] hooray, we found an intersection: t=0.568, u=0.506
+[3.061s]   (324.564,-428.312),(411.331,-428.312) and (374.087,-446.67),(373.55,-410.382)
+[3.061s] found intersection with door porta10!
+[3.061s] hooray, we found an intersection: t=0.52, u=0.772
+[3.061s]   (770.208,-1316.641),(770.208,-1176.992) and (684.803,-1244.256),(795.375,-1243.921)
+[3.061s] found intersection with door porta5!
+[3.061s] hooray, we found an intersection: t=0.663, u=0.304
+[3.061s]   (843.289,-1375.974),(843.289,-1176.992) and (809.287,-1243.951),(921.029,-1243.951)
+[3.062s] found intersection with door porta4!
+[3.062s] hooray, we found an intersection: t=0.51, u=0.728
+[3.062s]   (711.768,-1158.134),(711.768,-1326.804) and (796.737,-1244.207),(680.059,-1244.207)
+[3.062s] found intersection with door porta12!
+[3.062s] hooray, we found an intersection: t=0.541, u=0.611
+[3.062s]   (877.465,-1181.911),(877.465,-1297.082) and (808.451,-1244.207),(921.478,-1244.207)
+[3.062s] found intersection with door porta13!
+[3.062s] hooray, we found an intersection: t=0.544, u=0.177
+[3.062s]   (828.425,-1181.911),(828.425,-1296.339) and (808.451,-1244.207),(921.478,-1244.207)
+[3.063s] found intersection with door porta13!
+[3.063s] hooray, we found an intersection: t=0.426, u=0.359
+[3.064s]   (754.864,-1181.911),(754.864,-1328.29) and (796.737,-1244.207),(680.059,-1244.207)
+[3.064s] found intersection with door porta12!
+[3.065s] hooray, we found an intersection: t=0.558, u=0.432
+[3.065s]   (877.465,-1375.844),(972.43,-1375.844) and (930.457,-1391.932),(930.457,-1354.697)
+[3.065s] found intersection with door porta16!
+[3.065s] hooray, we found an intersection: t=0.344, u=0.522
+[3.065s]   (711.768,-1376.587),(622.888,-1376.587) and (681.161,-1356.472),(681.161,-1395.025)
+[3.065s] found intersection with door porta15!
+[3.065s] writing /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/nav_graphs/0.yaml
+[3.065s] building name: roscon
+[3.065s] coordinate system: reference_image
+[3.065s] parsing level L1
+[3.065s] parsing level L2
+[3.065s] calculating levels relative to L1
+[3.066s] level L1 scale: 0.02540575101517147
+[3.066s] calculating level L2 offset and scale...
+[3.066s]   2 common fiducials:
+[3.066s] Transform.set_from_fiducials()
+[3.066s]   2 fiducial pairs:
+[3.066s]     (687.2, -1417.8) -> (687.64, -1417.9)   left_column
+[3.066s]     (916.56, -1418.8) -> (918.59, -1418.3)   right_column
+[3.066s]     calc dist left_column <=> right_column
+[3.066s] Bearings:
+[3.067s] [(-0.004373029209261051, -0.0014981586539799935)]
+[3.068s]   0.002874870555281057
+[3.068s]   Circular mean: -0.002874870555281057
+[3.068s] Distances:
+[3.068s] [(229.3611930776433, 230.95025918149565)]
+[3.068s] mean relative scale: 1.0069282256624574
+[3.068s] translation: (0.21192, -0.19473)
+[3.069s] writing /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/nav_graphs/1.yaml
+[3.069s] parsing lift lift
+[3.069s] generating model of level L1 in /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L1
+[3.069s]   wrote /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L1/model.config
+[3.069s] generating floor polygon 1 on floor roscon_L1
+[3.069s] hole vertices: []
+[3.069s] lift vertices: {'lift': [(12.923163058344308, -28.166613667447187), (12.923163058344308, -30.26661366744719), (15.02316305834431, -30.26661366744719), (15.02316305834431, -28.166613667447187)]}
+[3.069s] writing /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/nav_graphs/2.yaml
+[3.071s] writing /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/nav_graphs/3.yaml
+[3.073s] writing /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/nav_graphs/6.yaml
+[3.074s] [[0, 5, 6], [0, 6, 7], [0, 7, 1], [1, 7, 8], [7, 2, 8], [3, 2, 4], [4, 2, 5], [5, 2, 9], [5, 9, 10], [5, 10, 6], [7, 9, 2]]
+[3.075s]   wrote /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L1/meshes/floor_1.obj
+[3.076s]   wrote /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L1/meshes/blue_linoleum.png
+[3.076s]   wrote /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L1/meshes/floor_1.mtl
+[3.076s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7b1fe45dfa10>, 'texture_height': <building_map.param_value.ParamValue object at 0x7b1fe45dfa40>, 'texture_name': <building_map.param_value.ParamValue object at 0x7b1fe45dfa70>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7b1fe45dfaa0>, 'texture_width': <building_map.param_value.ParamValue object at 0x7b1fe45dfad0>}]
+[3.077s] generating wall: 1 on floor: roscon_L1
+[3.077s]   wrote /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L1/meshes/default.png
+[3.077s] generate_wall_visual_mesh(roscon_L1, /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L1)
+[3.077s]   generating /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L1/meshes/wall_1.obj
+[3.088s]   generating /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L1/meshes/wall_1.mtl
+[3.089s]   wrote /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L1/model.sdf
+[3.089s] generating model of level L2 in /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L2
+[3.089s]   wrote /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L2/model.config
+[3.089s] generating floor polygon 1 on floor roscon_L2
+[3.090s] hole vertices: []
+[3.090s] lift vertices: {'lift': [(12.923163058344308, -28.166613667447187), (12.923163058344308, -30.26661366744719), (15.02316305834431, -30.26661366744719), (15.02316305834431, -28.166613667447187)]}
+[3.095s] [[0, 1, 6], [0, 6, 5], [5, 6, 7], [5, 7, 4], [4, 7, 3], [3, 7, 8], [3, 8, 2], [2, 8, 9], [2, 9, 1], [1, 9, 6]]
+[3.096s]   wrote /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L2/meshes/floor_1.obj
+[3.097s]   wrote /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L2/meshes/blue_linoleum.png
+[3.098s]   wrote /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L2/meshes/floor_1.mtl
+[3.099s] Walls Generation, wall params list: [{'alpha': <building_map.param_value.ParamValue object at 0x7b1fe44a68d0>, 'texture_height': <building_map.param_value.ParamValue object at 0x7b1fe44a6900>, 'texture_name': <building_map.param_value.ParamValue object at 0x7b1fe44a6930>, 'texture_scale': <building_map.param_value.ParamValue object at 0x7b1fe44a6960>, 'texture_width': <building_map.param_value.ParamValue object at 0x7b1fe44a6990>}]
+[3.099s] generating wall: 1 on floor: roscon_L2
+[3.100s]   wrote /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L2/meshes/default.png
+[3.105s] generate_wall_visual_mesh(roscon_L2, /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L2)
+[3.105s]   generating /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L2/meshes/wall_1.obj
+[3.108s]   generating /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L2/meshes/wall_1.mtl
+[3.109s]   wrote /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/models/roscon_L2/model.sdf
+[3.111s] spawning robot name tinyRobot1 of type TinyRobot
+[3.111s] generate door name=porta5 type=double_hinged
+[3.111s] Door(porta5)
+[3.112s] generate door name=porta4 type=double_hinged
+[3.112s] Door(porta4)
+[3.112s] generate door name=porta6 type=sliding
+[3.112s] Door(porta6)
+[3.112s] generate door name=porta7 type=sliding
+[3.112s] Door(porta7)
+[3.112s] generate door name=porta81 type=sliding
+[3.112s] Door(porta81)
+[3.112s] generate door name=porta8 type=sliding
+[3.113s] Door(porta8)
+[3.113s] generate door name=porta9 type=sliding
+[3.113s] Door(porta9)
+[3.113s] generate door name=porta10 type=sliding
+[3.113s] Door(porta10)
+[3.113s] generate door name=porta1 type=double_hinged
+[3.113s] Door(porta1)
+[3.113s] generate door name=porta11 type=hinged
+[3.113s] Door(porta11)
+[3.113s] generate door name=porta2 type=hinged
+[3.113s] Door(porta2)
+[3.113s] generate door name=porta3 type=sliding
+[3.113s] Door(porta3)
+[3.114s] generate door name=porta12 type=double_hinged
+[3.114s] Door(porta12)
+[3.114s] generate door name=porta13 type=double_hinged
+[3.114s] Door(porta13)
+[3.114s] generate door name=porta15 type=hinged
+[3.114s] Door(porta15)
+[3.114s] generate door name=porta16 type=sliding
+[3.114s] Door(porta16)
+[3.120s] 133399 bytes written to /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/roscon.world
+[3.163s] [ 66%] Built target generate_roscon_nav_graphs
+[3.529s] building name: test1
+[3.529s] coordinate system: reference_image
+[3.530s] parsing level L1
+[3.530s] calculating levels relative to L1
+[3.530s] WARNING! No measurements defined. Scale is indetermined.
+[3.530s]          Nav graph generated in pixel units, not meters!
+[3.570s] Models: [] are used in crowd_sim
+[3.585s] Load success!
+[3.585s] 
+[3.586s] Cache found! Model count: 2932 
+[3.586s] Updating cache...
+[3.586s] Topping up Fuel (updating cache) from: https://fuel.gazebosim.org/1.0/models
+[3.586s] Fetching page: 1
+[3.814s] building name: roscon
+[3.815s] coordinate system: reference_image
+[3.815s] parsing level L1
+[3.816s] parsing level L2
+[3.816s] calculating levels relative to L1
+[3.816s] level L1 scale: 0.02540575101517147
+[3.816s] calculating level L2 offset and scale...
+[3.816s]   2 common fiducials:
+[3.816s] Transform.set_from_fiducials()
+[3.816s]   2 fiducial pairs:
+[3.816s]     (687.2, -1417.8) -> (687.64, -1417.9)   left_column
+[3.817s]     (916.56, -1418.8) -> (918.59, -1418.3)   right_column
+[3.817s]     calc dist left_column <=> right_column
+[3.817s] Bearings:
+[3.817s] [(-0.004373029209261051, -0.0014981586539799935)]
+[3.817s]   0.002874870555281057
+[3.817s]   Circular mean: -0.002874870555281057
+[3.817s] Distances:
+[3.817s] [(229.3611930776433, 230.95025918149565)]
+[3.817s] mean relative scale: 1.0069282256624574
+[3.817s] translation: (0.21192, -0.19473)
+[3.821s] parsing lift lift
+[4.281s] Cached model found! Halting Fuel traversal...
+[4.281s] Writing to cache: /home/usuario/.pit_crew/model_cache.json
+[4.320s] New models cached: 1
+[4.320s] 
+[4.321s] WARNING::pit_crew.get_local_model_name_tuples():275: No local model path given! Using default ~/.gazebo/models/ instead!
+[4.322s] WARNING::pit_crew.get_local_model_name_tuples():284: Model directory specified does not exist! Returning empty model set.
+[4.323s] 
+[4.323s] == REQUESTED MODEL REPORT ==
+[4.324s] {'available': [], 'downloadable': [], 'missing': []}
+[4.324s] 
+[4.324s] == THE FOLLOWING MODELS HAVE SPECIFIED AUTHORS ==
+[4.324s] {}
+[4.324s] 
+[4.415s] [ 83%] [34m[1mGenerating test1_crowdsim[0m
+[4.416s] Models: [] are used in crowd_sim
+[4.432s] Load success!
+[4.432s] 
+[4.432s] Cache found! Model count: 2933 
+[4.432s] Updating cache...
+[4.432s] Topping up Fuel (updating cache) from: https://fuel.gazebosim.org/1.0/models
+[4.432s] Fetching page: 1
+[4.916s] Creating output folder path:  /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/test1/config_resource/
+[4.920s] Cached model found! Halting Fuel traversal...
+[4.920s] Writing to cache: /home/usuario/.pit_crew/model_cache.json
+[4.953s] crowdsim unable to parse, not attempting to proceed
+[4.958s] New models cached: 0
+[4.958s] 
+[4.960s] WARNING::pit_crew.get_local_model_name_tuples():275: No local model path given! Using default ~/.gazebo/models/ instead!
+[4.960s] WARNING::pit_crew.get_local_model_name_tuples():284: Model directory specified does not exist! Returning empty model set.
+[4.961s] 
+[4.961s] == REQUESTED MODEL REPORT ==
+[4.962s] {'available': [],
+[4.962s]  'downloadable': [('Chair', ['Peyman1372', 'OpenRobotics']),
+[4.962s]                   ('MiniSofa', ['OpenRobotics']),
+[4.962s]                   ('WoodenChair', ['will0993', 'OpenRobotics']),
+[4.962s]                   ('CoffeeTable', ['will0993', 'OpenRobotics']),
+[4.962s]                   ('Sofa', ['OpenRobotics', 'sebbyjp']),
+[4.962s]                   ('Drawer', ['OpenRobotics']),
+[4.962s]                   ('AdjTable', ['OpenRobotics']),
+[4.962s]                   ('Cafe table', ['OpenRobotics'])],
+[4.962s]  'missing': []}
+[4.963s] 
+[4.963s] == THE FOLLOWING MODELS HAVE SPECIFIED AUTHORS ==
+[4.963s] {'adjtable': 'openrobotics',
+[4.963s]  'cafe table': 'openrobotics',
+[4.963s]  'chair': 'openrobotics',
+[4.963s]  'coffeetable': 'openrobotics',
+[4.963s]  'drawer': 'openrobotics',
+[4.963s]  'minisofa': 'openrobotics',
+[4.963s]  'sofa': 'openrobotics',
+[4.963s]  'woodenchair': 'openrobotics'}
+[4.963s] 
+[4.963s] 
+[4.964s] Downloading Chair by openrobotics from Fuel
+[4.964s] Downloading model 1 / 8 : Chair
+[4.964s] WARNING::pit_crew.download_model():530: No path given! Downloading to /home/usuario/.gazebo/models instead!
+[4.964s] WARNING::pit_crew.download_model():538: Download path does not exist! Created: /home/usuario/.gazebo/models
+[4.987s] crowdsim unable to parse, not attempting to proceed
+[5.082s] [ 83%] Built target generate_test1_crowdsim
+[7.117s] Chair downloaded to: /home/usuario/.gazebo/models/Chair
+[7.120s] 
+[7.120s] Downloading MiniSofa by openrobotics from Fuel
+[7.120s] Downloading model 2 / 8 : MiniSofa
+[7.121s] WARNING::pit_crew.download_model():530: No path given! Downloading to /home/usuario/.gazebo/models instead!
+[9.018s] MiniSofa downloaded to: /home/usuario/.gazebo/models/MiniSofa
+[9.020s] 
+[9.021s] Downloading WoodenChair by openrobotics from Fuel
+[9.021s] Downloading model 3 / 8 : WoodenChair
+[9.021s] WARNING::pit_crew.download_model():530: No path given! Downloading to /home/usuario/.gazebo/models instead!
+[10.439s] WoodenChair downloaded to: /home/usuario/.gazebo/models/WoodenChair
+[10.441s] 
+[10.441s] Downloading CoffeeTable by openrobotics from Fuel
+[10.441s] Downloading model 4 / 8 : CoffeeTable
+[10.441s] WARNING::pit_crew.download_model():530: No path given! Downloading to /home/usuario/.gazebo/models instead!
+[11.729s] CoffeeTable downloaded to: /home/usuario/.gazebo/models/CoffeeTable
+[11.731s] 
+[11.732s] Downloading Sofa by openrobotics from Fuel
+[11.732s] Downloading model 5 / 8 : Sofa
+[11.732s] WARNING::pit_crew.download_model():530: No path given! Downloading to /home/usuario/.gazebo/models instead!
+[13.516s] Sofa downloaded to: /home/usuario/.gazebo/models/Sofa
+[13.518s] 
+[13.518s] Downloading Drawer by openrobotics from Fuel
+[13.518s] Downloading model 6 / 8 : Drawer
+[13.518s] WARNING::pit_crew.download_model():530: No path given! Downloading to /home/usuario/.gazebo/models instead!
+[14.725s] Drawer downloaded to: /home/usuario/.gazebo/models/Drawer
+[14.725s] WARNING::pit_crew.sync_sdf():944: Synced SDF names for Drawer! Changed from OfficeChairBlue to Drawer
+[14.725s] WARNING::pit_crew.sync_sdf():987: Synced SDF names for Drawer! Changed from OfficeChairBlue to Drawer
+[14.727s] 
+[14.727s] Downloading AdjTable by openrobotics from Fuel
+[14.727s] Downloading model 7 / 8 : AdjTable
+[14.727s] WARNING::pit_crew.download_model():530: No path given! Downloading to /home/usuario/.gazebo/models instead!
+[17.048s] AdjTable downloaded to: /home/usuario/.gazebo/models/AdjTable
+[17.050s] 
+[17.050s] Downloading Cafe table by openrobotics from Fuel
+[17.050s] Downloading model 8 / 8 : Cafe table
+[17.050s] WARNING::pit_crew.download_model():530: No path given! Downloading to /home/usuario/.gazebo/models instead!
+[18.531s] Cafe table downloaded to: /home/usuario/.gazebo/models/Cafe table
+[18.531s] WARNING::pit_crew.sync_sdf():939: Internal name reference for Cafe table changed from model://cafe_table/meshes/cafe_table.dae to model://Cafe table/meshes/cafe_table.dae
+[18.531s] WARNING::pit_crew.sync_sdf():944: Synced SDF names for Cafe table! Changed from cafe_table to Cafe table
+[18.531s] WARNING::pit_crew.sync_sdf():987: Synced SDF names for Cafe table! Changed from cafe_table to Cafe table
+[18.600s] [100%] [34m[1mGenerating roscon_crowdsim[0m
+[19.058s] Creating output folder path:  /home/usuario/IR2134/rmf_ws/src/project/build/project_maps/maps/roscon/config_resource/
+[19.553s] crowdsim unable to parse, not attempting to proceed
+[20.039s] crowdsim unable to parse, not attempting to proceed
+[20.107s] [100%] Built target generate_roscon_crowdsim
+[20.124s] Invoked command in '/home/usuario/IR2134/rmf_ws/src/project/build/project_maps' returned '0': CMAKE_PREFIX_PATH=/home/usuario/IR2134/rmf_ws/src/project/install/project_simulation:/home/usuario/IR2134/rmf_ws/src/project/install/project_config:/home/usuario/IR2134/rmf_ws/src/project/install/project_maps:/home/usuario/IR2134/rmf_ws/src/project/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/usuario/IR2134/rmf_ws/src/project/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --build /home/usuario/IR2134/rmf_ws/src/project/build/project_maps -- -j6 -l6
+[20.137s] Invoking command in '/home/usuario/IR2134/rmf_ws/src/project/build/project_maps': CMAKE_PREFIX_PATH=/home/usuario/IR2134/rmf_ws/src/project/install/project_simulation:/home/usuario/IR2134/rmf_ws/src/project/install/project_config:/home/usuario/IR2134/rmf_ws/src/project/install/project_maps:/home/usuario/IR2134/rmf_ws/src/project/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/usuario/IR2134/rmf_ws/src/project/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --install /home/usuario/IR2134/rmf_ws/src/project/build/project_maps
+[20.161s] -- Install configuration: ""
+[20.162s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps
+[20.162s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/roscon
+[20.162s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/roscon/roscon.building.yaml
+[20.186s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/test1
+[20.186s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/test1/test1.building.yaml
+[20.190s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/ament_index/resource_index/package_run_dependencies/project_maps
+[20.191s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/ament_index/resource_index/parent_prefix_path/project_maps
+[20.194s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/environment/ament_prefix_path.sh
+[20.195s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/environment/ament_prefix_path.dsv
+[20.198s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/environment/path.sh
+[20.198s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/environment/path.dsv
+[20.201s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/local_setup.bash
+[20.204s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/local_setup.sh
+[20.207s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/local_setup.zsh
+[20.210s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/local_setup.dsv
+[20.213s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/package.dsv
+[20.216s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/ament_index/resource_index/packages/project_maps
+[20.217s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/cmake/project_mapsConfig.cmake
+[20.220s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/cmake/project_mapsConfig-version.cmake
+[20.223s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/package.xml
+[20.226s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon
+[20.226s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/nav_graphs
+[20.227s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/nav_graphs/3.yaml
+[20.233s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/nav_graphs/0.yaml
+[20.243s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/nav_graphs/1.yaml
+[20.250s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/nav_graphs/6.yaml
+[20.256s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/nav_graphs/2.yaml
+[20.262s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/roscon.world
+[20.295s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/config_resource
+[20.295s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models
+[20.295s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L1
+[20.295s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L1/meshes
+[20.295s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L1/meshes/floor_1.mtl
+[20.296s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L1/meshes/default.png
+[20.297s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L1/meshes/wall_1.mtl
+[20.297s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L1/meshes/wall_1.obj
+[20.298s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L1/meshes/blue_linoleum.png
+[20.299s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L1/meshes/model.material
+[20.300s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L1/meshes/floor_1.obj
+[20.300s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L1/model.config
+[20.301s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L1/model.sdf
+[20.301s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L2
+[20.302s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L2/meshes
+[20.302s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L2/meshes/floor_1.mtl
+[20.305s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L2/meshes/default.png
+[20.308s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L2/meshes/wall_1.mtl
+[20.311s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L2/meshes/wall_1.obj
+[20.318s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L2/meshes/blue_linoleum.png
+[20.338s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L2/meshes/model.material
+[20.341s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L2/meshes/floor_1.obj
+[20.344s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L2/model.config
+[20.347s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/roscon/models/roscon_L2/model.sdf
+[20.350s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1
+[20.350s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/nav_graphs
+[20.350s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/nav_graphs/1.yaml
+[20.353s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/test1.world
+[20.357s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/config_resource
+[20.357s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/models
+[20.357s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/models/test1_L1
+[20.357s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes
+[20.357s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/floor_1.mtl
+[20.358s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/default.png
+[20.359s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/wall_1.mtl
+[20.359s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/wall_1.obj
+[20.360s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/blue_linoleum.png
+[20.361s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/model.material
+[20.361s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/models/test1_L1/meshes/floor_1.obj
+[20.362s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/models/test1_L1/model.config
+[20.362s] -- Installing: /home/usuario/IR2134/rmf_ws/src/project/install/project_maps/share/project_maps/maps/test1/models/test1_L1/model.sdf
+[20.366s] Invoked command in '/home/usuario/IR2134/rmf_ws/src/project/build/project_maps' returned '0': CMAKE_PREFIX_PATH=/home/usuario/IR2134/rmf_ws/src/project/install/project_simulation:/home/usuario/IR2134/rmf_ws/src/project/install/project_config:/home/usuario/IR2134/rmf_ws/src/project/install/project_maps:/home/usuario/IR2134/rmf_ws/src/project/install/project_assets:/rmf_demos_ws/install/rmf_workcell_msgs:/rmf_demos_ws/install/rmf_reservation_node:/rmf_demos_ws/install/rmf_demos_gz:/rmf_demos_ws/install/rmf_demos:/rmf_demos_ws/install/rmf_fleet_adapter_python:/rmf_demos_ws/install/rmf_fleet_adapter:/rmf_demos_ws/install/rmf_task_ros2:/rmf_demos_ws/install/rmf_websocket:/rmf_demos_ws/install/rmf_visualization:/rmf_demos_ws/install/rmf_visualization_schedule:/rmf_demos_ws/install/rmf_visualization_rviz2_plugins:/rmf_demos_ws/install/rmf_visualization_obstacles:/rmf_demos_ws/install/rmf_visualization_navgraphs:/rmf_demos_ws/install/rmf_visualization_floorplans:/rmf_demos_ws/install/rmf_visualization_fleet_states:/rmf_demos_ws/install/rmf_visualization_msgs:/rmf_demos_ws/install/rmf_traffic_ros2:/rmf_demos_ws/install/rmf_task_sequence:/rmf_demos_ws/install/rmf_task:/rmf_demos_ws/install/rmf_battery:/rmf_demos_ws/install/rmf_traffic:/rmf_demos_ws/install/rmf_utils:/rmf_demos_ws/install/rmf_traffic_msgs:/rmf_demos_ws/install/rmf_traffic_editor_test_maps:/rmf_demos_ws/install/rmf_traffic_editor_assets:/rmf_demos_ws/install/rmf_traffic_editor:/rmf_demos_ws/install/rmf_task_msgs:/rmf_demos_ws/install/rmf_site_map_msgs:/rmf_demos_ws/install/rmf_scheduler_msgs:/rmf_demos_ws/install/rmf_robot_sim_gz_plugins:/rmf_demos_ws/install/rmf_robot_sim_common:/rmf_demos_ws/install/rmf_reservation_msgs:/rmf_demos_ws/install/rmf_obstacle_msgs:/rmf_demos_ws/install/rmf_building_sim_gz_plugins:/rmf_demos_ws/install/rmf_lift_msgs:/rmf_demos_ws/install/rmf_ingestor_msgs:/rmf_demos_ws/install/rmf_fleet_msgs:/rmf_demos_ws/install/rmf_door_msgs:/rmf_demos_ws/install/rmf_dispenser_msgs:/rmf_demos_ws/install/rmf_demos_maps:/rmf_demos_ws/install/rmf_demos_assets:/rmf_demos_ws/install/rmf_charger_msgs:/rmf_demos_ws/install/rmf_building_map_msgs:/rmf_demos_ws/install/rmf_api_msgs:/rmf_demos_ws/install/pybind11_json_vendor:/rmf_demos_ws/install/nlohmann_json_schema_validator_vendor:/home/usuario/IR2134/rmf_ws/src/project/install/project_fleet_adapter:/rmf_demos_ws/install/rmf_demos_fleet_adapter:/rmf_demos_ws/install/rmf_visualization_building_systems:/rmf_demos_ws/install/rmf_traffic_examples:/rmf_demos_ws/install/rmf_demos_bridges:/rmf_demos_ws/install/rmf_demos_tasks:/rmf_demos_ws/install/rmf_building_map_tools:/rmf_demos_ws/install/rmf_charging_schedule:/opt/ros/jazzy:/rmf_demos_ws/install/menge_vendor:/rmf_demos_ws/install/ament_cmake_catch2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor /usr/bin/cmake --install /home/usuario/IR2134/rmf_ws/src/project/build/project_maps

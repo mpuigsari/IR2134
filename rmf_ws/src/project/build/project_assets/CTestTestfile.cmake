@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/project_assets
-# Build directory: /home/max/Documents/GitHub/IR2134/rmf_ws/src/project/build/project_assets
+# Source directory: /home/usuario/IR2134/rmf_ws/src/project/project_assets
+# Build directory: /home/usuario/IR2134/rmf_ws/src/project/build/project_assets
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

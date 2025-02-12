@@ -1,7 +1,28 @@
 building_name: test1
-doors: {}
+doors:
+  'null':
+    endpoints:
+    - [4.9948, -2.468933333333333]
+    - [5.006266666666666, -4.1358]
+    map: L1
 levels:
   L1:
+    lanes:
+    - - 0
+      - 1
+      - {door_name: 'null'}
+    - - 1
+      - 0
+      - {door_name: 'null'}
+    vertices:
+    - - 3.3333333333333335
+      - -3.3333333333333335
+      - {is_charger: true, name: tinyRobot1_charger, spawn_robot_name: tinyRobot1,
+        spawn_robot_type: TinyRobot}
+    - - 7.666666666666667
+      - -3.3333333333333335
+      - {lift: lift, lift_cabin: lift, name: lift1_L1}
+  L2:
     lanes:
     - - 0
       - 1
@@ -10,11 +31,13 @@ levels:
       - 0
       - {}
     vertices:
-    - - 3.3333333333333335
-      - -3.3333333333333335
-      - {is_charger: true, name: tinyRobot1_charger, spawn_robot_name: tinyRobot1,
-        spawn_robot_type: TinyRobot}
-    - - 6.666666666666667
-      - -3.3333333333333335
+    - - 2.417852377332373
+      - -3.251315315356099
       - {name: waypoint1}
-lifts: {}
+    - - 7.69102182662925
+      - -3.3372662466033365
+      - {lift: lift, lift_cabin: lift, name: lift1_L2}
+lifts:
+  lift:
+    dims: [3.0, 3.0]
+    position: [7.666666666666667, -3.3333333333333335, 0.0]

@@ -1142,7 +1142,8 @@ levels:
       - {name: right_corridor_1}
     - - 12.186910110218616
       - -8.048110023839063
-      - {name: ''}
+      - {is_charger: true, name: tinyRobot2_charger, spawn_robot_name: tinyRobot2,
+        spawn_robot_type: TinyRobot}
     - - 30.135971579433196
       - -39.52720744219133
       - {is_charger: true, name: tinyRobot1_charger, spawn_robot_name: tinyRobot1,

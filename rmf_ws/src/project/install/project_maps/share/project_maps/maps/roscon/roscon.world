@@ -1795,6 +1795,11 @@
       <static>True</static>
     </include>
     <include>
+      <name>tinyRobot2</name>
+      <uri>model://TinyRobot</uri>
+      <pose>12.186910110218616 -8.048110023839063 0.0 0 0 -1.5984529892526589</pose>
+    </include>
+    <include>
       <name>tinyRobot1</name>
       <uri>model://TinyRobot</uri>
       <pose>30.135971579433196 -39.52720744219133 0.0 0 0 -0.057932761505118044</pose>
@@ -3858,6 +3863,7 @@
       <pose>13.973163058344308 -29.216613667447188 0 0 0 0.0</pose>
     </model>
     <rmf_charger_waypoints name="charger_waypoints">
+      <rmf_vertex name="tinyRobot2_charger" x="12.186910110218616" y="-8.048110023839063" level="L1" />
       <rmf_vertex name="tinyRobot1_charger" x="30.135971579433196" y="-39.52720744219133" level="L1" />
     </rmf_charger_waypoints>
   </world>

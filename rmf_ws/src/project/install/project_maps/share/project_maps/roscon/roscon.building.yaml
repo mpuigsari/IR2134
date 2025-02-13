@@ -854,7 +854,7 @@ levels:
       - [1010.279, 1487.8889999999999, 0, ""]
       - [627.73900000000003, 1372.356, 0, ""]
       - [961.89800000000002, 1378.8679999999999, 0, ""]
-      - [479.69099999999997, 316.78300000000002, 0, ""]
+      - [479.69099999999997, 316.78300000000002, 0, tinyRobot2_charger, {is_charger: [4, true], spawn_robot_name: [1, tinyRobot2], spawn_robot_type: [1, TinyRobot]}]
       - [1186.1869999999999, 1555.837, 0, tinyRobot1_charger, {is_charger: [4, true], spawn_robot_name: [1, tinyRobot1], spawn_robot_type: [1, TinyRobot]}]
     walls:
       - [8, 9, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]

@@ -1,6 +1,6 @@
 building_name: test1
 doors:
-  'null':
+  door1:
     endpoints:
     - [4.9948, -2.468933333333333]
     - [5.006266666666666, -4.1358]
@@ -10,10 +10,10 @@ levels:
     lanes:
     - - 0
       - 1
-      - {door_name: 'null'}
+      - {door_name: door1}
     - - 1
       - 0
-      - {door_name: 'null'}
+      - {door_name: door1}
     vertices:
     - - 3.3333333333333335
       - -3.3333333333333335

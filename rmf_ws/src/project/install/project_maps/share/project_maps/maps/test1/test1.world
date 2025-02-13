@@ -224,7 +224,7 @@
       <plugin filename="toggle_charging" name="toggle_charging" />
       <plugin name="toggle_floors" filename="toggle_floors">
         <floor name="L1" model_name="test1_L1">
-          <model name="null" />
+          <model name="door1" />
           <model name="ShaftDoor_lift_L1_door_lift" />
         </floor>
         <floor name="L2" model_name="test1_L2">
@@ -252,7 +252,7 @@
       <uri>model://TinyRobot</uri>
       <pose>3.3333333333333335 -3.3333333333333335 0.0 0 0 0.0</pose>
     </include>
-    <model name="null">
+    <model name="door1">
       <pose>5.000533333333333 -3.3023666666666665 0.0 0 0 1.5776753927825502</pose>
       <link name="right">
         <pose>0.4167265267001316 0 1.11 0 0 0</pose>
@@ -364,7 +364,7 @@
           <dx_min_door>0.001</dx_min_door>
           <f_max_door>100.0</f_max_door>
           <ros_interface>true</ros_interface>
-          <door name="null" type="DoubleSlidingDoor" left_joint_name="left_joint" right_joint_name="right_joint" />
+          <door name="door1" type="DoubleSlidingDoor" left_joint_name="left_joint" right_joint_name="right_joint" />
         </component>
       </plugin>
     </model>

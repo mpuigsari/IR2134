@@ -12,7 +12,7 @@ rmf_fleet:
   reversible: True # whether robots in this fleet can reverse
   battery_system:
     voltage: 12.0 # V
-    capacity: 124.0 # Ahr
+    capacity: 24.0 # Ahr
     charging_current: 5.0 # A
   mechanical_system:
     mass: 20.0 # kg
@@ -24,23 +24,18 @@ rmf_fleet:
     power: 0.0 # W
   recharge_threshold: 0.10 # Battery level below which robots in this fleet will not operate
   recharge_soc: 1.0 # Battery level to which robots in this fleet should be charged up to during recharging tasks
+  max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
   publish_fleet_state: 10.0 # Publish frequency for fleet state, ensure that it is same as robot_state_update_frequency
-  account_for_battery_drain: False
+  account_for_battery_drain: True
   task_capabilities: # Specify the types of RMF Tasks that robots in this fleet are capable of performing
     loop: True
     delivery: True
-  actions: ["teleop"]
-  finishing_request: "charge" # [park, charge, nothing]
-  responsive_wait: False # Should responsive wait be on/off for the whole fleet by default? False if not specified.
-  use_parking_reservations: True
-  reassign_task_interval: 120 # seconds, specify how often a task reassignment should be triggered in the fleet
+  finishing_request: "park" # [park, charge, nothing]
   robots:
     tinyRobot1:
-        charger: "tinyRobot1_charger"
-        responsive_wait: False # Should responsive wait be on/off for this specific robot? Overrides the fleet-wide setting.
+      charger: "tinyRobot1_charger"
     tinyRobot2:
-        charger: "tinyRobot2_charger"
-        # No mention of responsive_wait means the fleet-wide setting will be used
+      charger: "tinyRobot2_charger"
 
 fleet_manager:
   ip: "127.0.0.1"

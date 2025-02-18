@@ -67,7 +67,6 @@ rocker --nvidia --x11 --name rmf_demos \
 cd /home/usuario/rmf_ws/src/project
 
 # Build the project
-cd /home/usuario/rmf_ws
 colcon build --symlink-install
 
 # Source the workspace
@@ -132,10 +131,13 @@ _Open 3 terminals in the following order to ensure a smooth workflow:_
 
 **Terminal 1:** _(Launch the simulation with Web Dashboard integration)_
 ```bash
+#Only in Native
 source /opt/ros/jazzy/setup.bash
 source rmf_ws/install/setup.bash
 source IR2134/rmf_ws/src/project/install/setup.bash
 export ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST
+```
+```bash
 ros2 launch project_simulation roscon.launch.xml server_uri:="ws://localhost:8000/_internal"
 ```
 

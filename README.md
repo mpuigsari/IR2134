@@ -56,20 +56,22 @@ git clone https://github.com/mpuigsari/IR2134.git
 # Run the RMF Docker container with shared workspace
 cd IR2134
 
-docker run -it --rm \
-  --network host \
-  --volume $(pwd)/rmf_ws:/root/rmf_ws \
-  osrf/rmf:latest /bin/bash
+rocker --nvidia --x11 --name rmf_demos \
+  -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
+  --network host --user \
+  --volume $(pwd)/rmf_ws:/home/usuario/rmf_ws --\
+  ghcr.io/open-rmf/rmf/rmf_demos:latest \
+    bash
 
 # Inside the container, navigate to project source
-cd /root/rmf_ws/src/project
+cd /home/usuario/rmf_ws/src/project
 
 # Build the project
-cd /root/rmf_ws
+cd /home/usuario/rmf_ws
 colcon build --symlink-install
 
 # Source the workspace
-source /root/rmf_ws/install/setup.bash
+source /home/usuario/rmf_ws/install/setup.bash
 ```
 
 ## Simulation Environments

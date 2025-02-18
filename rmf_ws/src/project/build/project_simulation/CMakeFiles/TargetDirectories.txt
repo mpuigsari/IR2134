@@ -1,9 +1,0 @@
-/home/max/IR2134/rmf_ws/src/project/build/project_simulation/CMakeFiles/uninstall.dir
-/home/max/IR2134/rmf_ws/src/project/build/project_simulation/CMakeFiles/project_simulation_uninstall.dir
-/home/max/IR2134/rmf_ws/src/project/build/project_simulation/CMakeFiles/test.dir
-/home/max/IR2134/rmf_ws/src/project/build/project_simulation/CMakeFiles/edit_cache.dir
-/home/max/IR2134/rmf_ws/src/project/build/project_simulation/CMakeFiles/rebuild_cache.dir
-/home/max/IR2134/rmf_ws/src/project/build/project_simulation/CMakeFiles/list_install_components.dir
-/home/max/IR2134/rmf_ws/src/project/build/project_simulation/CMakeFiles/install.dir
-/home/max/IR2134/rmf_ws/src/project/build/project_simulation/CMakeFiles/install/local.dir
-/home/max/IR2134/rmf_ws/src/project/build/project_simulation/CMakeFiles/install/strip.dir

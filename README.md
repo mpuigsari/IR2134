@@ -29,9 +29,12 @@ source ~/rmf_ws/install/setup.bash
 # Navigate to the RMF workspace
 cd ~/rmf_ws/src
 
-# Clone only the project folder from the repository
-git clone --depth 1 --filter=blob:none --sparse <your_project_repo_link>
-cd project
+# Clone the project folder from the repository
+git clone --depth 1 --filter=blob:none --sparse --no-checkout https://github.com/mpuigsari/IR2134.git .
+git sparse-checkout set rmf_ws/src/project
+git checkout
+
+
 
 # Build the project
 cd ~/rmf_ws
@@ -46,23 +49,27 @@ source ~/rmf_ws/install/setup.bash
 Instead of a native installation, you can **install and build this project inside the RMF Docker environment**.
 
 ```bash
-# Run the RMF Docker container
-cd ~/rmf_ws
+# Clone the full repository
+cd ~
+git clone https://github.com/mpuigsari/IR2134.git
+
+# Run the RMF Docker container with shared workspace
+cd IR2134
 
 docker run -it --rm \
   --network host \
-  --volume ~/rmf_ws:/root/rmf_ws \
+  --volume $(pwd)/rmf_ws:/root/rmf_ws \
   osrf/rmf:latest /bin/bash
 
-# Inside the container, clone and build the project
-cd ~/rmf_ws/src
+# Inside the container, navigate to project source
+cd /root/rmf_ws/src/project
 
-git clone <your_project_repo_link>
-cd ~/rmf_ws
+# Build the project
+cd /root/rmf_ws
 colcon build --symlink-install
 
 # Source the workspace
-source ~/rmf_ws/install/setup.bash
+source /root/rmf_ws/install/setup.bash
 ```
 
 ## Simulation Environments
@@ -90,6 +97,8 @@ ros2 launch project_simulation test1.launch.xml
 # Launch roscon map
 ros2 launch project_simulation roscon.launch.xml
 ```
+
+![Snapshot of roscon map](media/roscon_map.png)
 
 **Note:** In order to ensure a smooth workflow, after launching the world, wait until the Gazebo world is fully loaded before proceeding with further steps.
 
@@ -121,8 +130,8 @@ _Open 3 terminals in the following order to ensure a smooth workflow:_
 
 **Terminal 1:** _(Launch the simulation with Web Dashboard integration)_
 ```bash
-source /opt/ros/jazzy/setup.bash 
-source rmf_ws/install/setup.bash 
+source /opt/ros/jazzy/setup.bash
+source rmf_ws/install/setup.bash
 source IR2134/rmf_ws/src/project/install/setup.bash
 export ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST
 ros2 launch project_simulation roscon.launch.xml server_uri:="ws://localhost:8000/_internal"
@@ -146,7 +155,5 @@ docker run --network host -it \
 
 Now, you can monitor ongoing tasks and interact with the robots via the web interface!
 
-## Media & Screenshots
-
-_Screenshots of the simulation running in **Gazebo**, **RViz**, and **Dashboard** will be displayed here._
+![Description of GIF](media/example_tasks.gif)
 

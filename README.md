@@ -121,25 +121,32 @@ _Open 3 terminals in the following order to ensure a smooth workflow:_
 
 **Terminal 1:** _(Launch the simulation with Web Dashboard integration)_
 ```bash
+source /opt/ros/jazzy/setup.bash 
+source rmf_ws/install/setup.bash 
+source IR2134/rmf_ws/src/project/install/setup.bash
+export ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST
 ros2 launch project_simulation roscon.launch.xml server_uri:="ws://localhost:8000/_internal"
 ```
 
 **Terminal 2:** _(Start the API Server)_
 ```bash
-docker run \
-  --network host \
-  -it \
-  -e ROS_DOMAIN_ID=<ROS_DOMAIN_ID> \
-  -e RMW_IMPLEMENTATION=<RMW_IMPLEMENTATION> \
+docker run --network host -it \
+  -e ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST \
+  -e RMW_IMPLEMENTATION=rmw_cyclonedds_cpp \
   ghcr.io/open-rmf/rmf-web/api-server:latest
 ```
 
 **Terminal 3:** _(Start the Frontend Dashboard)_
 ```bash
-docker run \
-  --network host \
-  -it \
+docker run --network host -it \
+  -e RMF_SERVER_URL=http://localhost:8000 \
+  -e TRAJECTORY_SERVER_URL=ws://localhost:8006 \
   ghcr.io/open-rmf/rmf-web/dashboard:latest
 ```
 
 Now, you can monitor ongoing tasks and interact with the robots via the web interface!
+
+## Media & Screenshots
+
+_Screenshots of the simulation running in **Gazebo**, **RViz**, and **Dashboard** will be displayed here._
+

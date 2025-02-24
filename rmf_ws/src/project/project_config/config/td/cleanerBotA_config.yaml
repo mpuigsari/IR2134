@@ -32,7 +32,7 @@ rmf_fleet:
     loop: False
     delivery: False
   actions: ["clean"]
-  finishing_request: "charge" # [park, charge, nothing]
+  finishing_request: "park" # [park, charge, nothing]
   robots:
     cleanerBotA_0:
       charger: "charger_cleanerBotA_0"
@@ -49,60 +49,28 @@ fleet_manager:
   robot_state_update_frequency: 10.0
   action_paths:
     clean:
-      TD0007CW_0:
+      TD0007CW:
         map_name: "L0"
-        path: [ [24.59, -35.49, 0.0],
-                [24.24, -38.77, 1.57],
-                [18.3, -38.62, 0.0],
-                [18.3, -35.3, 0.0],
-                [23.8, -35.45, 0.0] ]
-        finish_waypoint: "TD0007CW_0"
-      TD0009CW_0:
+        path: [ [97.00, -90.84, 0.0],
+                [97.26, -98.05, 1.57],
+                [97.00, -90.84, 0.0] ]
+        finish_waypoint: "TD0007CW"
+      TD0009CW:
         map_name: "L0"
-        path: [ [8.54, -21.93, 1.57],
-                [14.0, -23.25, 0.0],
-                [14.0, -24.7, 0.0],
-                [8.6, -24.7, 1.57],
-                [8.56, -23.27, 0.0] ]
-        finish_waypoint: "TD0009CW_0"
-      TD0001EC_0:
-        map_name: "L0"
-        path: [ [24.59, -35.49, 0.0],
-                [24.24, -38.77, 1.57],
-                [18.3, -38.62, 0.0],
-                [18.3, -35.3, 0.0],
-                [23.8, -35.45, 0.0] ]
-        finish_waypoint: "TD0001EC_0"
-      TD0011CV_0:
-        map_name: "L0"
-        path: [ [8.54, -21.93, 1.57],
-                [14.0, -23.25, 0.0],
-                [14.0, -24.7, 0.0],
-                [8.6, -24.7, 1.57],
-                [8.56, -23.27, 0.0] ]
-        finish_waypoint: "TD0011CV_0"
-      TD2037EA_0:
-        map_name: "L0"
-        path: [ [14.2, -11.35, 1.57],
-                [16.5, -11.35, 1.57],
-                [17.8, -13.9, 0.0],
-                [12.8, -14.1, 0.0],
-                [12.86, -11.4, 0.0] ]
-        finish_waypoint: "TD2037EA_0"
-      TD0115CW_0:
+        path: [ [167.19, -91.02, 1.57],
+                [167.19, -98.05, 0.0],
+                [167.19, -91.02, 1.57] ]
+        finish_waypoint: "TD0009CW"
+      TD0115CW:
         map_name: "L1"
-        path: [ [14.2, -11.35, 1.57],
-                [16.5, -11.35, 1.57],
-                [17.8, -13.9, 0.0],
-                [12.8, -14.1, 0.0],
-                [12.86, -11.4, 0.0] ]
-        finish_waypoint: "TD0115CW_0"
-      TD0116CW_0:
+        path: [ [111.88, -90.80, 1.57],
+                [111.88, -98.22, 1.57],
+                [111.88, -90.80, 0.0] ]
+        finish_waypoint: "TD0115CW"
+      TD0116CW:
         map_name: "L1"
-        path: [ [14.2, -11.35, 1.57],
-                [16.5, -11.35, 1.57],
-                [17.8, -13.9, 0.0],
-                [12.8, -14.1, 0.0],
-                [12.86, -11.4, 0.0] ]
-        finish_waypoint: "TD0116CW_0"
+        path: [ [166.84, -91.02, 1.57],
+                [166.84, -97.96, 1.57],
+                [166.84, -91.02, 0.0] ]
+        finish_waypoint: "TD0116CW"
 

@@ -87,6 +87,19 @@ This project provides two simulated environments:
 - **2 floors**, with **doors and lifts**
 - Allows **task execution using the RMF Dashboard**
 
+### **3. td Map**
+- Contains **two fleets**: 
+  - **TinyRobot** fleet with **four robots** (`tinyRobot1`, `tinyRobot2`, `tinyRobot3`, `tinyRobot4`)
+  - **CleanerRobotA** fleet with **three robots** (`cleanerBotA_0`, `cleanerBotA_1`, `cleanerBotA_2`)
+- **3 floors**:
+  - **2 complete floors** and **1 partial floor** of the **TD building** from **University Jaume I**
+- Features:
+  - **4 lifts**
+  - **Multiple doors** and **lanes** for complex navigation
+  - Dedicated **cleaning zones**
+  - **Delivery dispensers** and **ingesters** (delivery currently non-functional)
+
+
 ### **Launching the Simulation**
 
 To launch the simulation in Gazebo and RViz, use:
@@ -97,6 +110,10 @@ ros2 launch project_simulation test1.launch.xml
 
 # Launch roscon map
 ros2 launch project_simulation roscon.launch.xml
+```
+```bash
+# Launch td map
+ros2 launch project_simulation td.launch.xml
 ```
 
 ![Snapshot of roscon map](media/roscon_map.png)
@@ -112,12 +129,13 @@ This project currently supports **Loop** tasks.
 By sourcing `rmf_demos` natively or using the **Docker environment provided by rmf_demos**, you can dispatch tasks:
 
 ```bash
+# roscon map
 ros2 run rmf_demos_tasks dispatch_patrol -p left_corridor_1 right_corridor_1 -n 2 --use_sim_time
 ```
-
-### **Screenshots of Tasks in Execution**
-
-_Screenshots of the **roscon** map executing tasks will be displayed here._
+```bash
+# td map
+ros2 run rmf_demos_tasks dispatch_patrol -p TD1107AL TD1016AA -n 2 --use_sim_time
+```
 
 _(Note: The **test1** map does not support task execution due to the limited space between the door and lift.)_
 
@@ -140,6 +158,9 @@ export ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST
 ```bash
 ros2 launch project_simulation roscon.launch.xml server_uri:="ws://localhost:8000/_internal"
 ```
+```bash
+ros2 launch project_simulation td.launch.xml server_uri:="ws://localhost:8000/_internal"
+```
 
 **Terminal 2:** _(Start the API Server)_
 ```bash
@@ -159,5 +180,8 @@ docker run --network host -it \
 
 Now, you can monitor ongoing tasks and interact with the robots via the web interface!
 
-![Description of GIF](media/example_tasks.gif)
+![Example roscon map tasks](media/example_tasks.gif)
+
+![Example td map tasks](media/td.gif)
+
 

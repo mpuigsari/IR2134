@@ -611,6 +611,18 @@ levels:
       {}
     measurements:
       - [2674, 1737, {distance: [3, 8]}]
+    models:
+      - {dispensable: false, model_name: OpenRobotics/Fridge, name: OpenRobotics/Fridge, static: true, x: 2898.46, y: 2078.3110000000001, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Fridge, name: OpenRobotics/Fridge, static: true, x: 3479.8200000000002, y: 2070.1759999999999, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/Fridge, name: OpenRobotics/Fridge, static: true, x: 3381.3939999999998, y: 2983.212, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/TeleportDispenser, name: coke_dispenser_1, static: true, x: 2897.7069999999999, y: 2069.2460000000001, yaw: 1.5708, z: 1.0800000000000001}
+      - {dispensable: false, model_name: OpenRobotics/TeleportDispenser, name: coke_dispenser_2, static: true, x: 3478.9479999999999, y: 2060.7350000000001, yaw: 1.5708, z: 1.0800000000000001}
+      - {dispensable: false, model_name: OpenRobotics/TeleportDispenser, name: kitchen_dispenser, static: true, x: 3381.9409999999998, y: 2974.3879999999999, yaw: 1.5708, z: 1.0800000000000001}
+      - {dispensable: false, model_name: OpenRobotics/Coke, name: OpenRobotics/Coke, static: true, x: 2897.5140000000001, y: 2069.2190000000001, yaw: 1.5708, z: 1.0800000000000001}
+      - {dispensable: false, model_name: OpenRobotics/Coke, name: OpenRobotics/Coke, static: true, x: 3478.962, y: 2060.596, yaw: 1.5708, z: 1.0800000000000001}
+      - {dispensable: false, model_name: OpenRobotics/Coke, name: OpenRobotics/Coke, static: true, x: 3381.913, y: 2974.5189999999998, yaw: 1.5708, z: 1.0800000000000001}
+      - {dispensable: false, model_name: OpenRobotics/CoffeeTable, name: OpenRobotics/CoffeeTable, static: true, x: 3524.145, y: 1523.548, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/TeleportIngestor, name: coke_ingestor_2, static: true, x: 3517.1640000000002, y: 1523.489, yaw: 1.5708, z: 1.0800000000000001}
     vertices:
       - [869.54999999999995, 3714.54, 0, ""]
       - [1372.123, 3714.54, 0, ""]
@@ -3283,9 +3295,9 @@ levels:
       - [3643.2959999999998, 2143.605, 0, ""]
       - [3643.2959999999998, 2124.0509999999999, 0, ""]
       - [4498.0370000000003, 2330.6570000000002, 0, charger_cleanerBotA_1, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, cleanerBotA_1], spawn_robot_type: [1, CleanerBotA]}]
-      - [3502.8519999999999, 1523.518, 0, consergeria, {dropoff_ingestor: [1, coffe_ingestor_2], is_parking_spot: [4, false]}]
-      - [2872.9859999999999, 2074.6840000000002, 0, maquina_1, {pickup_dispenser: [1, coffe_dispenser_1]}]
-      - [3499.4389999999999, 2067.4879999999998, 0, maquina_2, {pickup_dispenser: [1, coffe_dispenser_2]}]
+      - [3502.8519999999999, 1523.518, 0, consergeria, {dropoff_ingestor: [1, coke_ingestor_2], is_parking_spot: [4, false]}]
+      - [2872.9859999999999, 2074.6840000000002, 0, maquina_1, {pickup_dispenser: [1, coke_dispenser_1]}]
+      - [3499.4389999999999, 2067.4879999999998, 0, maquina_2, {pickup_dispenser: [1, coke_dispenser_2]}]
       - [1512.0450000000001, 3015.7629999999999, 0, ""]
       - [3988, 2165, 0, "", {lift_cabin: [1, lift_td0_der]}]
       - [2391, 2165, 0, "", {lift_cabin: [1, lift_td0_izq]}]
@@ -5952,6 +5964,9 @@ levels:
       {}
     measurements:
       - [2278, 2279, {distance: [3, 8]}]
+    models:
+      - {dispensable: false, model_name: OpenRobotics/CoffeeTable, name: OpenRobotics/CoffeeTable, static: true, x: 1817.606, y: 3246.9920000000002, yaw: 1.5708, z: 0}
+      - {dispensable: false, model_name: OpenRobotics/TeleportIngestor, name: coke_ingestor_lab, static: true, x: 1817.53, y: 3253.4459999999999, yaw: 1.5708, z: 0}
     vertices:
       - [742.07799999999997, 3871.0700000000002, 0, ""]
       - [1245.0360000000001, 3871.0700000000002, 0, ""]
@@ -8229,7 +8244,7 @@ levels:
       - [2608.9949999999999, 2279.5039999999999, 0, ""]
       - [2581.0160000000001, 2303.8310000000001, 0, ""]
       - [1484.347, 3268.0909999999999, 0, ""]
-      - [1817.855, 3268.0909999999999, 0, "", {dropoff_ingestor: [1, coffe_ingestor_lab]}]
+      - [1817.855, 3268.0909999999999, 0, lab, {dropoff_ingestor: [1, coke_ingestor_lab]}]
       - [4653.6099999999997, 1075.1500000000001, 0, TD2105AA]
       - [1385.1110000000001, 3171.0909999999999, 0, ""]
       - [1385.1110000000001, 2991.0599999999999, 0, ""]

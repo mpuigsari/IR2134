@@ -1,8 +1,7 @@
 rmf_ws/src/project/build/**
 rmf_ws/src/project/log/**
 rmf_ws/src/project/install/**
-
-exam_ws/src/project/build/**
-exam_ws/src/project/log/**
-exam_ws/src/project/install/**
+exam_ws/src/rmf_library/build/**
+exam_ws/src/rmf_library/log/**
+exam_ws/src/rmf_library/install/**
 

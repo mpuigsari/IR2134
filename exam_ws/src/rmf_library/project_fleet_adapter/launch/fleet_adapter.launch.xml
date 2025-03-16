@@ -9,7 +9,7 @@
   <arg name="output" default="screen"/>
 
   <!-- Fleet manager -->
-  <node pkg="fleet_adapter"
+  <node pkg="project_fleet_adapter"
         exec="fleet_manager"
         args="--config_file $(var config_file)"
         output="both">
@@ -20,7 +20,7 @@
   <!-- Fleet adapter -->
   <group>
     <group if="$(var use_sim_time)">
-      <node pkg="fleet_adapter"
+      <node pkg="project_fleet_adapter"
             exec="fleet_adapter"
             args="-c $(var config_file) -n $(var nav_graph_file) -sim"
             output="both">
@@ -31,7 +31,7 @@
     </group>
 
     <group unless="$(var use_sim_time)">
-      <node pkg="fleet_adapter"
+      <node pkg="project_fleet_adapter"
             exec="fleet_adapter"
             args="-c $(var config_file) -n $(var nav_graph_file)"
             output="both">

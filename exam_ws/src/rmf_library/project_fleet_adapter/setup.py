@@ -4,7 +4,7 @@ import os
 from setuptools import find_packages
 from setuptools import setup
 
-package_name = 'fleet_adapter'
+package_name = 'project_fleet_adapter'
 
 setup(
     name=package_name,
@@ -32,9 +32,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'fleet_adapter=fleet_adapter.fleet_adapter:main',
-            'fleet_manager=fleet_adapter.fleet_manager:main',
-            'manage_lane=fleet_adapter.manage_lane:main',
+            'fleet_adapter=project_fleet_adapter.fleet_adapter:main',
+            'fleet_manager=project_fleet_adapter.fleet_manager:main',
+            'manage_lane=project_fleet_adapter.manage_lane:main',
         ],
     },
 )

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>config</name>
+  <name>rmf_library</name>
   <version>2.5.0</version>
   <description>Common launch files for RMF demos</description>
   <maintainer email="yadunund@openrobotics.org">Yadunund</maintainer>
@@ -9,21 +9,27 @@
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
-
-  <exec_depend>maps</exec_depend>
-
+  <buildtool_depend>ros2run</buildtool_depend>
+  <buildtool_depend>rmf_building_map_tools</buildtool_depend>
+  
   <exec_depend>rmf_traffic_ros2</exec_depend>
   <exec_depend>rmf_task_ros2</exec_depend>
   <exec_depend>rmf_fleet_adapter</exec_depend>
   <exec_depend>rmf_building_map_tools</exec_depend>
-
   <exec_depend>rmf_visualization</exec_depend>
-
   <exec_depend>rmf_demos_tasks</exec_depend>
-  <exec_depend>project_fleet_adapter</exec_depend>
   <exec_depend>rviz2</exec_depend>
-
+  <exec_depend>rmf_demos</exec_depend>
+  <exec_depend>rmf_building_sim_gz_plugins</exec_depend>
+  <exec_depend>rmf_robot_sim_gz_plugins</exec_depend>
+  <exec_depend>teleop_twist_keyboard</exec_depend>
   <exec_depend>launch_xml</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>gz_sim_vendor</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+  <exec_depend>rmf_demos_fleet_adapter</exec_depend>
+
+
 
   <export>
     <build_type>ament_cmake</build_type>

@@ -49,28 +49,16 @@ fleet_manager:
   robot_state_update_frequency: 10.0
   action_paths:
     clean:
-      TD0007CW:
+      CD2027CW:
         map_name: "L0"
-        path: [ [97.00, -90.84, 0.0],
-                [97.26, -98.05, 1.57],
-                [97.00, -90.84, 0.0] ]
-        finish_waypoint: "TD0007CW"
-      TD0009CW:
+        path: [ [52.01, -140.18, 0.0],
+                [52.59, -136.46, 1.57],
+                [52.01, -140.18, 0.0] ]
+        finish_waypoint: "CD2027CW"
+      CD1022CW:
         map_name: "L0"
-        path: [ [167.19, -91.02, 1.57],
-                [167.19, -98.05, 0.0],
-                [167.19, -91.02, 1.57] ]
-        finish_waypoint: "TD0009CW"
-      TD0115CW:
-        map_name: "L1"
-        path: [ [111.88, -90.80, 1.57],
-                [111.88, -98.22, 1.57],
-                [111.88, -90.80, 0.0] ]
-        finish_waypoint: "TD0115CW"
-      TD0116CW:
-        map_name: "L1"
-        path: [ [166.84, -91.02, 1.57],
-                [166.84, -97.96, 1.57],
-                [166.84, -91.02, 0.0] ]
-        finish_waypoint: "TD0116CW"
+        path: [ [49.76, -57.46, 0.0],
+                [44.85, -58.24, 1.57],
+                [49.76, -57.46, 0.0] ]
+        finish_waypoint: "CD1022CW"
 

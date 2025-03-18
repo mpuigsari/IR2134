@@ -96,6 +96,16 @@ ros2 launch rmf_library library.launch.xml
 ## Task Execution
 
 The project provides **5 example task executions**. Each task is executed using **ROS 2 commands**, with GIFs below to illustrate the results.
+### **Docker terminal for tasks**
+In order to setup a terminal for sending tasks into the fleet adapter you can easily access the docker container and source the rmf_demos packages needed.
+
+```bash
+docker ps # Container name rmf_library executing
+docker exec -it rmf_library bash
+source /opt/ros/jazzy/setup.bash
+source /rmf_demos_ws/install/setup.bash
+```
+Once the workspace is correctly sourced you are now able to dispatch tasks as the following
 
 ### **Task 1: Patrol Between Two Points**
 ```bash
